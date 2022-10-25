@@ -14,6 +14,8 @@
 		EF6855022907CB57004E0FBF /* PractiseSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6855012907CB57004E0FBF /* PractiseSwiftUITests.swift */; };
 		EF68550C2907CB57004E0FBF /* PractiseSwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF68550B2907CB57004E0FBF /* PractiseSwiftUIUITests.swift */; };
 		EF68550E2907CB57004E0FBF /* PractiseSwiftUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF68550D2907CB57004E0FBF /* PractiseSwiftUIUITestsLaunchTests.swift */; };
+		EF68551B290807D3004E0FBF /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF68551A290807D3004E0FBF /* CardView.swift */; };
+		EF68551D29081605004E0FBF /* Chapter-6-buttons.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF68551C29081605004E0FBF /* Chapter-6-buttons.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		EF6855072907CB57004E0FBF /* PractiseSwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PractiseSwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF68550B2907CB57004E0FBF /* PractiseSwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PractiseSwiftUIUITests.swift; sourceTree = "<group>"; };
 		EF68550D2907CB57004E0FBF /* PractiseSwiftUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PractiseSwiftUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EF68551A290807D3004E0FBF /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		EF68551C29081605004E0FBF /* Chapter-6-buttons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Chapter-6-buttons.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,10 +98,12 @@
 		EF6854EF2907CB56004E0FBF /* PractiseSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				EF6854F62907CB57004E0FBF /* Preview Content */,
 				EF6854F02907CB56004E0FBF /* PractiseSwiftUIApp.swift */,
 				EF6854F22907CB56004E0FBF /* ContentView.swift */,
+				EF68551A290807D3004E0FBF /* CardView.swift */,
+				EF68551C29081605004E0FBF /* Chapter-6-buttons.swift */,
 				EF6854F42907CB57004E0FBF /* Assets.xcassets */,
-				EF6854F62907CB57004E0FBF /* Preview Content */,
 			);
 			path = PractiseSwiftUI;
 			sourceTree = "<group>";
@@ -257,7 +263,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF68551D29081605004E0FBF /* Chapter-6-buttons.swift in Sources */,
 				EF6854F32907CB56004E0FBF /* ContentView.swift in Sources */,
+				EF68551B290807D3004E0FBF /* CardView.swift in Sources */,
 				EF6854F12907CB56004E0FBF /* PractiseSwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
