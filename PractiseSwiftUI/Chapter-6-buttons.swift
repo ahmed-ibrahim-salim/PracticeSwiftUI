@@ -8,74 +8,22 @@
 import SwiftUI
 
 struct Chapter_6_buttons: View {
+    
+    @State private var isPlaying = false
+    
     var body: some View {
-        VStack{
+        Button(action: {
             
-            Button(action: {
-                print("Hello World tapped!")
-            }){
-                Image(systemName: "plus")
-                    
-            }
-            .buttonStyle(PlusBackgroundStyle())
-           
-            Button(action: {
-                print("Hello World tapped!")
-            }){
-                HStack{
-                    Text("Share")
-                        .fontWeight(.semibold)
-                        .font(.title)
-                    Image(systemName: "square.and.arrow.up")
-                        .font(.title)
-                }
-            }
-            .buttonStyle(GradientBackgroundStyle())
+            self.isPlaying.toggle()
             
-            Button(action: {
-                print("Hello World tapped!")
-            }){
-                HStack{
-                    Text("Edit")
-                        .fontWeight(.semibold)
-                        .font(.title)
-                    Image(systemName: "square.and.pencil")
-                        .font(.title)
-                }
-            }
-            .buttonStyle(GradientBackgroundStyle())
-            Button(action: {
-                print("Hello World tapped!")
-            }){
-                HStack{
-                    Text("Delete")
-                        .fontWeight(.semibold)
-                        .font(.title)
-                    Image(systemName: "trash")
-                        .font(.title)
-                }
-            }
-            .buttonStyle(GradientBackgroundStyle())
+        }){
+            Image(systemName: isPlaying ? "stop.circle.fill" : "play.circle.fill") .font(.system(size: 150))
+            .foregroundColor(isPlaying ? .red : .green)
         }
+        
     }
 }
 
-
-
-struct PlusBackgroundStyle: ButtonStyle{
-    
-    typealias Body = Button
-    
-    func makeBody(configuration: Configuration) -> some View {
-        configuration.label
-            .font(.title)
-            .padding()
-            .background(Color.purple)
-            .foregroundColor(.white)
-            .clipShape(Circle())
-            .rotationEffect(configuration.isPressed ? Angle(degrees: -90) : Angle(degrees: 0))
-    }
-}
 
 struct GradientBackgroundStyle: ButtonStyle{
     
