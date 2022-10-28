@@ -11,7 +11,8 @@ struct ContentView: View {
     
     @State private var isDoneLoading = false
     @State private var isLoading = false
-    
+    @State private var startLoading = false
+
     var body: some View {
         
         ZStack {
@@ -26,8 +27,8 @@ struct ContentView: View {
                                 .trim(from: 0, to: 0.8)
                                 .stroke(Color.white, lineWidth: 2)
                                 .frame(width: 40, height: 40)
-                                .rotationEffect(Angle(degrees: isLoading ? 360 : 0))
-                                .animation(Animation.default.repeatForever())
+                                .rotationEffect(Angle(degrees: startLoading ? 360 : 0))
+                                .animation(Animation.default.repeatForever(autoreverses: false))
                             
                         }
                         Text(isLoading ? "Proccessing" : "submit")
@@ -40,6 +41,12 @@ struct ContentView: View {
                     withAnimation(.default){
                         self.isLoading.toggle()
                     }
+                    self.startLoading.toggle()
+//                    Timer.scheduledTimer(withTimeInterval: 0.5, repeats: true){
+//                        timer in
+//
+////                        if timer.
+//                    }
                 }
         }
     }
