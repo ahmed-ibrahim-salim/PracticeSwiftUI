@@ -1,32 +1,54 @@
-////
-////  ContentView.swift
-////  PractiseSwiftUI
-////
-////  Created by magdy khalifa on 25/10/2022.
-////
+
+//  ContentView.swift
+//  PractiseSwiftUI
 //
-//import SwiftUI
+//  Created by magdy khalifa on 25/10/2022.
 //
-//struct ContentView: View {
-//        
-//    var body: some View {
-//        ZStack {
-//            Circle()
-//                .stroke(Color(.systemGray5),lineWidth: 10)
-//                .frame(width: 300, height: 300)
-//            
-//            Text("0%")
-//                .foregroundColor(.primary)
-//                .font(.system(size: 40))
-//        }
-//    }
-//    
-//}
-//
-//struct ContentView_Previews: PreviewProvider {
-//    
-//    static var previews: some View {
-//        ContentView()
-//    }
-//}
-//
+
+import SwiftUI
+
+struct ContentView: View {
+    
+    @State private var isDoneLoading = false
+    @State private var isLoading = false
+    
+    var body: some View {
+        
+        ZStack {
+            
+            RoundedRectangle(cornerRadius: 30)
+                .frame(width: isLoading ? 300 : 200 , height: 70)
+                .foregroundColor(.green)
+                .overlay(
+                    HStack {
+                        if isLoading{
+                            Circle()
+                                .trim(from: 0, to: 0.8)
+                                .stroke(Color.white, lineWidth: 2)
+                                .frame(width: 40, height: 40)
+                                .rotationEffect(Angle(degrees: isLoading ? 360 : 0))
+                                .animation(Animation.default.repeatForever())
+                            
+                        }
+                        Text(isLoading ? "Proccessing" : "submit")
+                            .font(.system(.title, design: .rounded))
+                            .bold()
+                            .foregroundColor(.white)
+                    }
+                    
+                ).onTapGesture {
+                    withAnimation(.default){
+                        self.isLoading.toggle()
+                    }
+                }
+        }
+    }
+}
+
+struct ContentView_Previews: PreviewProvider {
+    
+    static var previews: some View {
+        ContentView()
+    }
+}
+
