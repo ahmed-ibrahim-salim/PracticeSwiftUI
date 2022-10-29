@@ -8,49 +8,39 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var index = 0
     
-    @State private var isDoneLoading = false
-    @State private var isLoading = false
-    @State private var startLoading = false
-
     var body: some View {
         
-        ZStack {
-            
-            RoundedRectangle(cornerRadius: 30)
-                .frame(width: isLoading ? 300 : 200 , height: 70)
-                .foregroundColor(.green)
-                .overlay(
-                    HStack {
-                        if isLoading{
-                            Circle()
-                                .trim(from: 0, to: 0.8)
-                                .stroke(Color.white, lineWidth: 2)
-                                .frame(width: 40, height: 40)
-                                .rotationEffect(Angle(degrees: startLoading ? 360 : 0))
-                                .animation(Animation.default.repeatForever(autoreverses: false))
-                            
-                        }
-                        Text(isLoading ? "Proccessing" : "submit")
-                            .font(.system(.title, design: .rounded))
-                            .bold()
-                            .foregroundColor(.white)
-                    }
+        NavigationView {
+            List{
+                ForEach(restaurants){
+                    restaurant in
                     
-                ).onTapGesture {
-                    withAnimation(.default){
-                        self.isLoading.toggle()
+                    NavigationLink(destination: RestaurantDetailView(restaurant: restaurant)) {
+                        
+                        RestaurantCell(restaurant: restaurant)
                     }
-                    self.startLoading.toggle()
-//                    Timer.scheduledTimer(withTimeInterval: 0.5, repeats: true){
-//                        timer in
-//
-////                        if timer.
-//                    }
                 }
+                
+            }.navigationBarTitle("Restaurants", displayMode: .automatic)
         }
     }
+    
+    init(){
+        let navBarAppearance = UINavigationBarAppearance()
+        navBarAppearance.largeTitleTextAttributes = [.foregroundColor: UIColor.systemRed, .font: UIFont(name: "ArialRoundedMTBold", size: 35)!]
+        
+        navBarAppearance.titleTextAttributes = [.foregroundColor: UIColor.systemRed,
+            .font: UIFont(name: "ArialRoundedMTBold", size: 20)!]
+        
+        UINavigationBar.appearance().standardAppearance = navBarAppearance
+        UINavigationBar.appearance().scrollEdgeAppearance = navBarAppearance
+        UINavigationBar.appearance().compactAppearance = navBarAppearance
+    }
 }
+
+
 
 struct ContentView_Previews: PreviewProvider {
     
@@ -59,3 +49,24 @@ struct ContentView_Previews: PreviewProvider {
     }
 }
 
+
+struct RestaurantDetailView: View {
+    
+    var restaurant: Restaurant
+    
+    var body: some View {
+        
+        VStack {
+            
+            Image(restaurant.image)
+                .resizable()
+                .aspectRatio(contentMode: .fit)
+            
+            Text(restaurant.name)
+                .font(.system(.title, design: .rounded))
+                .fontWeight(.black)
+            
+            Spacer()
+        }
+    }
+}
