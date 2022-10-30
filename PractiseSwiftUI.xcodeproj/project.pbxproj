@@ -10,6 +10,8 @@
 		2156CEA86B8DFB7BFE3CB8DE /* Pods_PractiseSwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF3509A31F87B21F5F8D58AD /* Pods_PractiseSwiftUI.framework */; };
 		54F53AC692DF782692D7FE5B /* Pods_PractiseSwiftUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F82233DAD032D5AE7A5BA9F0 /* Pods_PractiseSwiftUITests.framework */; };
 		82D58A6797671FCA4538FD67 /* Pods_PractiseSwiftUI_PractiseSwiftUIUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C22B4522498242F56F8D9FB /* Pods_PractiseSwiftUI_PractiseSwiftUIUITests.framework */; };
+		EF05C296290E8CE400AB5ADD /* NavigationChapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF05C295290E8CE400AB5ADD /* NavigationChapter.swift */; };
+		EF05C298290EC1D600AB5ADD /* SheetPresentchapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF05C297290EC1D600AB5ADD /* SheetPresentchapter.swift */; };
 		EF2A105F290922D0002211C6 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2A105E290922D0002211C6 /* Network.swift */; };
 		EF2A106129092457002211C6 /* UploadData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2A106029092457002211C6 /* UploadData.swift */; };
 		EF2A106429096D26002211C6 /* CrazyAnimationTopToButtom.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2A106329096D26002211C6 /* CrazyAnimationTopToButtom.swift */; };
@@ -50,6 +52,8 @@
 		AF3509A31F87B21F5F8D58AD /* Pods_PractiseSwiftUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PractiseSwiftUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8D19060E6766DA460F64F07 /* Pods-PractiseSwiftUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PractiseSwiftUI.release.xcconfig"; path = "Target Support Files/Pods-PractiseSwiftUI/Pods-PractiseSwiftUI.release.xcconfig"; sourceTree = "<group>"; };
 		ED313087432E80A35D1E90DB /* Pods-PractiseSwiftUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PractiseSwiftUITests.release.xcconfig"; path = "Target Support Files/Pods-PractiseSwiftUITests/Pods-PractiseSwiftUITests.release.xcconfig"; sourceTree = "<group>"; };
+		EF05C295290E8CE400AB5ADD /* NavigationChapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationChapter.swift; sourceTree = "<group>"; };
+		EF05C297290EC1D600AB5ADD /* SheetPresentchapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetPresentchapter.swift; sourceTree = "<group>"; };
 		EF2A105E290922D0002211C6 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
 		EF2A106029092457002211C6 /* UploadData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadData.swift; sourceTree = "<group>"; };
 		EF2A106329096D26002211C6 /* CrazyAnimationTopToButtom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrazyAnimationTopToButtom.swift; sourceTree = "<group>"; };
@@ -177,6 +181,8 @@
 				EF6854F22907CB56004E0FBF /* ContentView.swift */,
 				EF68551A290807D3004E0FBF /* CardView.swift */,
 				EF6854F42907CB57004E0FBF /* Assets.xcassets */,
+				EF05C295290E8CE400AB5ADD /* NavigationChapter.swift */,
+				EF05C297290EC1D600AB5ADD /* SheetPresentchapter.swift */,
 			);
 			path = PractiseSwiftUI;
 			sourceTree = "<group>";
@@ -445,8 +451,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF2A106129092457002211C6 /* UploadData.swift in Sources */,
+				EF05C296290E8CE400AB5ADD /* NavigationChapter.swift in Sources */,
 				EF2A105F290922D0002211C6 /* Network.swift in Sources */,
 				EF6854F32907CB56004E0FBF /* ContentView.swift in Sources */,
+				EF05C298290EC1D600AB5ADD /* SheetPresentchapter.swift in Sources */,
 				EF398F26290D38E6002A7758 /* Restaurant.swift in Sources */,
 				EF68551B290807D3004E0FBF /* CardView.swift in Sources */,
 				EF6854F12907CB56004E0FBF /* PractiseSwiftUIApp.swift in Sources */,
