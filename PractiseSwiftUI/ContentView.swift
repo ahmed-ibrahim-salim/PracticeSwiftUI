@@ -13,34 +13,22 @@ struct ContentView: View {
     var body: some View {
         
         NavigationView {
-            List{
-                ForEach(restaurants){
-                    restaurant in
-                    
-                    NavigationLink(destination: RestaurantDetailView(restaurant: restaurant)) {
-                        
-                        RestaurantCell(restaurant: restaurant)
-                    }
-                }
+            List(restaurants){
+                restaurant in
                 
-            }.navigationBarTitle("Restaurants", displayMode: .automatic)
+                ZStack{
+                    NavigationLink(destination: RestaurantDetailView(restaurant: restaurant)) {
+                        EmptyView()
+                    }
+                    
+                    WideRestaurantCell(restaurant: restaurant)
+                }
+            }
+            .navigationBarTitle("Restaurants", displayMode: .automatic)
+            
         }
     }
     
-    init(){
-        let navBarAppearance = UINavigationBarAppearance()
-        navBarAppearance.largeTitleTextAttributes = [.foregroundColor: UIColor.systemRed, .font: UIFont(name: "ArialRoundedMTBold", size: 35)!]
-        
-        navBarAppearance.titleTextAttributes = [.foregroundColor: UIColor.systemRed,
-            .font: UIFont(name: "ArialRoundedMTBold", size: 20)!]
-        
-        navBarAppearance.setBackIndicatorImage(UIImage(systemName: "arrow.turn.up.left"), transitionMaskImage: UIImage(systemName: "arrow.turn.up.left"))
-        
-        UINavigationBar.appearance().standardAppearance = navBarAppearance
-        UINavigationBar.appearance().scrollEdgeAppearance = navBarAppearance
-        UINavigationBar.appearance().compactAppearance = navBarAppearance
-        UINavigationBar.appearance().tintColor = .black
-    }
 }
 
 
@@ -56,20 +44,34 @@ struct ContentView_Previews: PreviewProvider {
 struct RestaurantDetailView: View {
     
     var restaurant: Restaurant
+    @Environment(\.presentationMode) var presentationMode
     
     var body: some View {
-        
-        VStack {
+        ScrollView(.vertical, showsIndicators: false){
+            VStack {
+                
+                Image(restaurant.image)
+                    .resizable()
+                    .aspectRatio(contentMode: .fit)
+                
+                Text(restaurant.name)
+                    .font(.system(.title, design: .rounded))
+                    .fontWeight(.black)
+            }
             
-            Image(restaurant.image)
-                .resizable()
-                .aspectRatio(contentMode: .fit)
-            
-            Text(restaurant.name)
-                .font(.system(.title, design: .rounded))
-                .fontWeight(.black)
-            
-            Spacer()
         }
+        .edgesIgnoringSafeArea(.top)
+        .navigationBarBackButtonHidden(true)
+        .navigationBarItems(leading:
+                                Button(action: {
+            
+            presentationMode.wrappedValue.dismiss()
+            
+        }){
+            Image(systemName: "chevron.left.circle.fill")
+                .font(.system(.largeTitle))
+                .foregroundColor(.white)
+        })
+        
     }
 }

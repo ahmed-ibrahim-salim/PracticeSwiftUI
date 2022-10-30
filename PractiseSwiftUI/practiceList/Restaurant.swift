@@ -46,6 +46,8 @@ struct RestaurantCell: View {
                 .cornerRadius(5)
 
             Text(restaurant.name)
+            
+            Spacer()
         }
     }
 }
