@@ -59,6 +59,7 @@
 		EF48FCE6290FE0A30077E0A2 /* RequestProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF48FCE5290FE0A30077E0A2 /* RequestProtocol.swift */; };
 		EF48FCE8290FE1CF0077E0A2 /* RequestType.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF48FCE7290FE1CF0077E0A2 /* RequestType.swift */; };
 		EF48FCEA290FE8060077E0A2 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF48FCE9290FE8060077E0A2 /* NetworkError.swift */; };
+		EF48FCED2910120C0077E0A2 /* APIManagerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF48FCEC2910120C0077E0A2 /* APIManagerProtocol.swift */; };
 		EF6854F12907CB56004E0FBF /* AppMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6854F02907CB56004E0FBF /* AppMain.swift */; };
 		EF6854F52907CB57004E0FBF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF6854F42907CB57004E0FBF /* Assets.xcassets */; };
 		EF6855022907CB57004E0FBF /* PractiseSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6855012907CB57004E0FBF /* PractiseSwiftUITests.swift */; };
@@ -143,6 +144,7 @@
 		EF48FCE5290FE0A30077E0A2 /* RequestProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestProtocol.swift; sourceTree = "<group>"; };
 		EF48FCE7290FE1CF0077E0A2 /* RequestType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestType.swift; sourceTree = "<group>"; };
 		EF48FCE9290FE8060077E0A2 /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		EF48FCEC2910120C0077E0A2 /* APIManagerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManagerProtocol.swift; sourceTree = "<group>"; };
 		EF6854ED2907CB56004E0FBF /* PractiseSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PractiseSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF6854F02907CB56004E0FBF /* AppMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppMain.swift; sourceTree = "<group>"; };
 		EF6854F42907CB57004E0FBF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -314,6 +316,7 @@
 		EF48FC7D290FCBC30077E0A2 /* api */ = {
 			isa = PBXGroup;
 			children = (
+				EF48FCEB291011E20077E0A2 /* network */,
 				EF48FC7E290FCBC30077E0A2 /* APIConstants.swift */,
 				EF48FCE5290FE0A30077E0A2 /* RequestProtocol.swift */,
 				EF48FCE7290FE1CF0077E0A2 /* RequestType.swift */,
@@ -451,6 +454,14 @@
 				EF48FCB0290FCBC30077E0A2 /* SuggestionsGrid.swift */,
 			);
 			path = views;
+			sourceTree = "<group>";
+		};
+		EF48FCEB291011E20077E0A2 /* network */ = {
+			isa = PBXGroup;
+			children = (
+				EF48FCEC2910120C0077E0A2 /* APIManagerProtocol.swift */,
+			);
+			path = network;
 			sourceTree = "<group>";
 		};
 		EF6854E42907CB56004E0FBF = {
@@ -759,6 +770,7 @@
 				EF48FCD8290FCBC30077E0A2 /* AnimalTypeSuggestionView.swift in Sources */,
 				EF48FCCF290FCBC30077E0A2 /* AnimalContactsView.swift in Sources */,
 				EF48FCE8290FE1CF0077E0A2 /* RequestType.swift in Sources */,
+				EF48FCED2910120C0077E0A2 /* APIManagerProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
