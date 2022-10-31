@@ -7,7 +7,7 @@ target 'PractiseSwiftUI' do
 
   # Pods for PractiseSwiftUI
 
-  pod 'Alamofire'
+  #pod 'Alamofire'
 
   target 'PractiseSwiftUITests' do
     inherit! :search_paths
