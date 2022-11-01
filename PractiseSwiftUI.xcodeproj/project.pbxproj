@@ -14,6 +14,10 @@
 		EF05C298290EC1D600AB5ADD /* SheetPresentchapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF05C297290EC1D600AB5ADD /* SheetPresentchapter.swift */; };
 		EF2A106429096D26002211C6 /* CrazyAnimationTopToButtom.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2A106329096D26002211C6 /* CrazyAnimationTopToButtom.swift */; };
 		EF398F26290D38E6002A7758 /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF398F25290D38E6002A7758 /* Restaurant.swift */; };
+		EF3A30D3291163EB0080771E /* RequestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF3A30D2291163EB0080771E /* RequestManager.swift */; };
+		EF3A30D629116B1C0080771E /* parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF3A30D529116B1C0080771E /* parser.swift */; };
+		EF3A30DA29116F3B0080771E /* AuthTokenRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF3A30D929116F3B0080771E /* AuthTokenRequest.swift */; };
+		EF3A30DD291170D50080771E /* APIToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF3A30DC291170D50080771E /* APIToken.swift */; };
 		EF48FC67290FC9510077E0A2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF48FC39290FC9510077E0A2 /* Preview Assets.xcassets */; };
 		EF48FC68290FC9510077E0A2 /* AnimalsMock.json in Resources */ = {isa = PBXBuildFile; fileRef = EF48FC3A290FC9510077E0A2 /* AnimalsMock.json */; };
 		EF48FCB4290FCBC30077E0A2 /* AddressFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF48FC76290FCBC30077E0A2 /* AddressFetcher.swift */; };
@@ -98,6 +102,10 @@
 		EF05C297290EC1D600AB5ADD /* SheetPresentchapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetPresentchapter.swift; sourceTree = "<group>"; };
 		EF2A106329096D26002211C6 /* CrazyAnimationTopToButtom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrazyAnimationTopToButtom.swift; sourceTree = "<group>"; };
 		EF398F25290D38E6002A7758 /* Restaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
+		EF3A30D2291163EB0080771E /* RequestManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestManager.swift; sourceTree = "<group>"; };
+		EF3A30D529116B1C0080771E /* parser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = parser.swift; sourceTree = "<group>"; };
+		EF3A30D929116F3B0080771E /* AuthTokenRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthTokenRequest.swift; sourceTree = "<group>"; };
+		EF3A30DC291170D50080771E /* APIToken.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIToken.swift; sourceTree = "<group>"; };
 		EF48FC39290FC9510077E0A2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EF48FC3A290FC9510077E0A2 /* AnimalsMock.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = AnimalsMock.json; sourceTree = "<group>"; };
 		EF48FC76290FCBC30077E0A2 /* AddressFetcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddressFetcher.swift; sourceTree = "<group>"; };
@@ -224,6 +232,38 @@
 			path = practiceList;
 			sourceTree = "<group>";
 		};
+		EF3A30D429116AE30080771E /* parser */ = {
+			isa = PBXGroup;
+			children = (
+				EF3A30D529116B1C0080771E /* parser.swift */,
+			);
+			path = parser;
+			sourceTree = "<group>";
+		};
+		EF3A30D729116E040080771E /* request */ = {
+			isa = PBXGroup;
+			children = (
+				EF3A30D829116F290080771E /* auth */,
+			);
+			path = request;
+			sourceTree = "<group>";
+		};
+		EF3A30D829116F290080771E /* auth */ = {
+			isa = PBXGroup;
+			children = (
+				EF3A30D929116F3B0080771E /* AuthTokenRequest.swift */,
+			);
+			path = auth;
+			sourceTree = "<group>";
+		};
+		EF3A30DB291170BA0080771E /* model */ = {
+			isa = PBXGroup;
+			children = (
+				EF3A30DC291170D50080771E /* APIToken.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
 		EF48FC05290FB2250077E0A2 /* CardView */ = {
 			isa = PBXGroup;
 			children = (
@@ -316,6 +356,9 @@
 		EF48FC7D290FCBC30077E0A2 /* api */ = {
 			isa = PBXGroup;
 			children = (
+				EF3A30DB291170BA0080771E /* model */,
+				EF3A30D729116E040080771E /* request */,
+				EF3A30D429116AE30080771E /* parser */,
 				EF48FCEB291011E20077E0A2 /* network */,
 				EF48FC7E290FCBC30077E0A2 /* APIConstants.swift */,
 				EF48FCE5290FE0A30077E0A2 /* RequestProtocol.swift */,
@@ -460,6 +503,7 @@
 			isa = PBXGroup;
 			children = (
 				EF48FCEC2910120C0077E0A2 /* APIManagerProtocol.swift */,
+				EF3A30D2291163EB0080771E /* RequestManager.swift */,
 			);
 			path = network;
 			sourceTree = "<group>";
@@ -727,6 +771,7 @@
 				EF48FCBB290FCBC30077E0A2 /* APIColors.swift in Sources */,
 				EF48FCDA290FCBC30077E0A2 /* SuggestionsGrid.swift in Sources */,
 				EF48FCC2290FCBC30077E0A2 /* Size.swift in Sources */,
+				EF3A30D3291163EB0080771E /* RequestManager.swift in Sources */,
 				EF48FCBA290FCBC30077E0A2 /* User.swift in Sources */,
 				EF48FCCE290FCBC30077E0A2 /* AnimalDetailCard.swift in Sources */,
 				EF48FCC6290FCBC30077E0A2 /* Breed.swift in Sources */,
@@ -760,11 +805,14 @@
 				EF48FCB9290FCBC30077E0A2 /* Organization.swift in Sources */,
 				EF48FCE4290FDE1A0077E0A2 /* AnimalsMock.swift in Sources */,
 				EF48FCCA290FCBC30077E0A2 /* AnimalLocationView.swift in Sources */,
+				EF3A30DD291170D50080771E /* APIToken.swift in Sources */,
 				EF48FCCD290FCBC30077E0A2 /* AnimalDetailsView.swift in Sources */,
 				EF48FCD1290FCBC30077E0A2 /* AnimalsNearYouView.swift in Sources */,
+				EF3A30DA29116F3B0080771E /* AuthTokenRequest.swift in Sources */,
 				EF48FCB4290FCBC30077E0A2 /* AddressFetcher.swift in Sources */,
 				EF48FCD9290FCBC30077E0A2 /* EmptyResultsView.swift in Sources */,
 				EF48FCE6290FE0A30077E0A2 /* RequestProtocol.swift in Sources */,
+				EF3A30D629116B1C0080771E /* parser.swift in Sources */,
 				EF48FCD5290FCBC30077E0A2 /* AnimalSearchType.swift in Sources */,
 				EF48FCBC290FCBC30077E0A2 /* AnimalEnvironment.swift in Sources */,
 				EF48FCD8290FCBC30077E0A2 /* AnimalTypeSuggestionView.swift in Sources */,
