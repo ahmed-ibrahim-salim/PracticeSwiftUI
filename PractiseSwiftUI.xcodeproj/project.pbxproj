@@ -70,6 +70,9 @@
 		EF68550C2907CB57004E0FBF /* PractiseSwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF68550B2907CB57004E0FBF /* PractiseSwiftUIUITests.swift */; };
 		EF68550E2907CB57004E0FBF /* PractiseSwiftUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF68550D2907CB57004E0FBF /* PractiseSwiftUIUITestsLaunchTests.swift */; };
 		EF68551B290807D3004E0FBF /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF68551A290807D3004E0FBF /* CardView.swift */; };
+		EFA423F32912AB8200FA7BA7 /* AnimalsRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA423F22912AB8200FA7BA7 /* AnimalsRequest.swift */; };
+		EFA423F52912B6F400FA7BA7 /* AnimalsContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA423F42912B6F400FA7BA7 /* AnimalsContainer.swift */; };
+		EFA423F72912BD6900FA7BA7 /* AnimalRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA423F62912BD6900FA7BA7 /* AnimalRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -162,6 +165,9 @@
 		EF68550B2907CB57004E0FBF /* PractiseSwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PractiseSwiftUIUITests.swift; sourceTree = "<group>"; };
 		EF68550D2907CB57004E0FBF /* PractiseSwiftUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PractiseSwiftUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		EF68551A290807D3004E0FBF /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		EFA423F22912AB8200FA7BA7 /* AnimalsRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalsRequest.swift; sourceTree = "<group>"; };
+		EFA423F42912B6F400FA7BA7 /* AnimalsContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalsContainer.swift; sourceTree = "<group>"; };
+		EFA423F62912BD6900FA7BA7 /* AnimalRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalRow.swift; sourceTree = "<group>"; };
 		F82233DAD032D5AE7A5BA9F0 /* Pods_PractiseSwiftUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PractiseSwiftUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -243,6 +249,7 @@
 		EF3A30D729116E040080771E /* request */ = {
 			isa = PBXGroup;
 			children = (
+				EFA423F12912AB7000FA7BA7 /* animals */,
 				EF3A30D829116F290080771E /* auth */,
 			);
 			path = request;
@@ -466,6 +473,7 @@
 			isa = PBXGroup;
 			children = (
 				EF48FCA2290FCBC30077E0A2 /* AnimalsNearYouView.swift */,
+				EFA423F62912BD6900FA7BA7 /* AnimalRow.swift */,
 			);
 			path = views;
 			sourceTree = "<group>";
@@ -559,6 +567,15 @@
 				EF68550D2907CB57004E0FBF /* PractiseSwiftUIUITestsLaunchTests.swift */,
 			);
 			path = PractiseSwiftUIUITests;
+			sourceTree = "<group>";
+		};
+		EFA423F12912AB7000FA7BA7 /* animals */ = {
+			isa = PBXGroup;
+			children = (
+				EFA423F22912AB8200FA7BA7 /* AnimalsRequest.swift */,
+				EFA423F42912B6F400FA7BA7 /* AnimalsContainer.swift */,
+			);
+			path = animals;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -774,6 +791,7 @@
 				EF3A30D3291163EB0080771E /* RequestManager.swift in Sources */,
 				EF48FCBA290FCBC30077E0A2 /* User.swift in Sources */,
 				EF48FCCE290FCBC30077E0A2 /* AnimalDetailCard.swift in Sources */,
+				EFA423F52912B6F400FA7BA7 /* AnimalsContainer.swift in Sources */,
 				EF48FCC6290FCBC30077E0A2 /* Breed.swift in Sources */,
 				EF48FCB6290FCBC30077E0A2 /* Persistence.swift in Sources */,
 				EF48FCC5290FCBC30077E0A2 /* Coat.swift in Sources */,
@@ -785,6 +803,7 @@
 				EF48FCD0290FCBC30077E0A2 /* AnimalDetailRow.swift in Sources */,
 				EF48FCCB290FCBC30077E0A2 /* AnimalContactLink.swift in Sources */,
 				EF48FCD6290FCBC30077E0A2 /* AnimalSearchAge.swift in Sources */,
+				EFA423F32912AB8200FA7BA7 /* AnimalsRequest.swift in Sources */,
 				EF48FCC3290FCBC30077E0A2 /* Pagination.swift in Sources */,
 				EF48FCCC290FCBC30077E0A2 /* AnimalHeaderView.swift in Sources */,
 				EF48FCC1290FCBC30077E0A2 /* Details.swift in Sources */,
@@ -806,6 +825,7 @@
 				EF48FCE4290FDE1A0077E0A2 /* AnimalsMock.swift in Sources */,
 				EF48FCCA290FCBC30077E0A2 /* AnimalLocationView.swift in Sources */,
 				EF3A30DD291170D50080771E /* APIToken.swift in Sources */,
+				EFA423F72912BD6900FA7BA7 /* AnimalRow.swift in Sources */,
 				EF48FCCD290FCBC30077E0A2 /* AnimalDetailsView.swift in Sources */,
 				EF48FCD1290FCBC30077E0A2 /* AnimalsNearYouView.swift in Sources */,
 				EF3A30DA29116F3B0080771E /* AuthTokenRequest.swift in Sources */,
