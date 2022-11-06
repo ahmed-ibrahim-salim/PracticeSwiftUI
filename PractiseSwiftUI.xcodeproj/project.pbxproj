@@ -14,65 +14,65 @@
 		EF05C298290EC1D600AB5ADD /* SheetPresentchapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF05C297290EC1D600AB5ADD /* SheetPresentchapter.swift */; };
 		EF2A106429096D26002211C6 /* CrazyAnimationTopToButtom.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2A106329096D26002211C6 /* CrazyAnimationTopToButtom.swift */; };
 		EF398F26290D38E6002A7758 /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF398F25290D38E6002A7758 /* Restaurant.swift */; };
-		EF3A30D3291163EB0080771E /* RequestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF3A30D2291163EB0080771E /* RequestManager.swift */; };
-		EF3A30D629116B1C0080771E /* parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF3A30D529116B1C0080771E /* parser.swift */; };
-		EF3A30DA29116F3B0080771E /* AuthTokenRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF3A30D929116F3B0080771E /* AuthTokenRequest.swift */; };
-		EF3A30DD291170D50080771E /* APIToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF3A30DC291170D50080771E /* APIToken.swift */; };
 		EF48FC67290FC9510077E0A2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF48FC39290FC9510077E0A2 /* Preview Assets.xcassets */; };
 		EF48FC68290FC9510077E0A2 /* AnimalsMock.json in Resources */ = {isa = PBXBuildFile; fileRef = EF48FC3A290FC9510077E0A2 /* AnimalsMock.json */; };
-		EF48FCB4290FCBC30077E0A2 /* AddressFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF48FC76290FCBC30077E0A2 /* AddressFetcher.swift */; };
-		EF48FCB5290FCBC30077E0A2 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF48FC77290FCBC30077E0A2 /* LocationManager.swift */; };
-		EF48FCB6290FCBC30077E0A2 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF48FC7A290FCBC30077E0A2 /* Persistence.swift */; };
-		EF48FCB7290FCBC30077E0A2 /* PetSave.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EF48FC7B290FCBC30077E0A2 /* PetSave.xcdatamodeld */; };
-		EF48FCB8290FCBC30077E0A2 /* APIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF48FC7E290FCBC30077E0A2 /* APIConstants.swift */; };
-		EF48FCB9290FCBC30077E0A2 /* Organization.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF48FC82290FCBC30077E0A2 /* Organization.swift */; };
-		EF48FCBA290FCBC30077E0A2 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF48FC84290FCBC30077E0A2 /* User.swift */; };
-		EF48FCBB290FCBC30077E0A2 /* APIColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF48FC86290FCBC30077E0A2 /* APIColors.swift */; };
-		EF48FCBC290FCBC30077E0A2 /* AnimalEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF48FC87290FCBC30077E0A2 /* AnimalEnvironment.swift */; };
-		EF48FCBD290FCBC30077E0A2 /* Gender.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF48FC88290FCBC30077E0A2 /* Gender.swift */; };
-		EF48FCBE290FCBC30077E0A2 /* PhotoSizes.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF48FC89290FCBC30077E0A2 /* PhotoSizes.swift */; };
-		EF48FCBF290FCBC30077E0A2 /* AdoptionStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF48FC8A290FCBC30077E0A2 /* AdoptionStatus.swift */; };
-		EF48FCC0290FCBC30077E0A2 /* VideoLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF48FC8B290FCBC30077E0A2 /* VideoLink.swift */; };
-		EF48FCC1290FCBC30077E0A2 /* Details.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF48FC8D290FCBC30077E0A2 /* Details.swift */; };
-		EF48FCC2290FCBC30077E0A2 /* Size.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF48FC8E290FCBC30077E0A2 /* Size.swift */; };
-		EF48FCC3290FCBC30077E0A2 /* Pagination.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF48FC8F290FCBC30077E0A2 /* Pagination.swift */; };
-		EF48FCC4290FCBC30077E0A2 /* Age.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF48FC90290FCBC30077E0A2 /* Age.swift */; };
-		EF48FCC5290FCBC30077E0A2 /* Coat.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF48FC91290FCBC30077E0A2 /* Coat.swift */; };
-		EF48FCC6290FCBC30077E0A2 /* Breed.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF48FC92290FCBC30077E0A2 /* Breed.swift */; };
-		EF48FCC7290FCBC30077E0A2 /* AnimalAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF48FC93290FCBC30077E0A2 /* AnimalAttributes.swift */; };
-		EF48FCC8290FCBC30077E0A2 /* LaunchScreen.strings in Resources */ = {isa = PBXBuildFile; fileRef = EF48FC94290FCBC30077E0A2 /* LaunchScreen.strings */; };
-		EF48FCC9290FCBC30077E0A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF48FC96290FCBC30077E0A2 /* Assets.xcassets */; };
-		EF48FCCA290FCBC30077E0A2 /* AnimalLocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF48FC99290FCBC30077E0A2 /* AnimalLocationView.swift */; };
-		EF48FCCB290FCBC30077E0A2 /* AnimalContactLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF48FC9A290FCBC30077E0A2 /* AnimalContactLink.swift */; };
-		EF48FCCC290FCBC30077E0A2 /* AnimalHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF48FC9B290FCBC30077E0A2 /* AnimalHeaderView.swift */; };
-		EF48FCCD290FCBC30077E0A2 /* AnimalDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF48FC9C290FCBC30077E0A2 /* AnimalDetailsView.swift */; };
-		EF48FCCE290FCBC30077E0A2 /* AnimalDetailCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF48FC9D290FCBC30077E0A2 /* AnimalDetailCard.swift */; };
-		EF48FCCF290FCBC30077E0A2 /* AnimalContactsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF48FC9E290FCBC30077E0A2 /* AnimalContactsView.swift */; };
-		EF48FCD0290FCBC30077E0A2 /* AnimalDetailRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF48FC9F290FCBC30077E0A2 /* AnimalDetailRow.swift */; };
-		EF48FCD1290FCBC30077E0A2 /* AnimalsNearYouView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF48FCA2290FCBC30077E0A2 /* AnimalsNearYouView.swift */; };
-		EF48FCD4290FCBC30077E0A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF48FCA6290FCBC30077E0A2 /* LaunchScreen.storyboard */; };
-		EF48FCD5290FCBC30077E0A2 /* AnimalSearchType.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF48FCAA290FCBC30077E0A2 /* AnimalSearchType.swift */; };
-		EF48FCD6290FCBC30077E0A2 /* AnimalSearchAge.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF48FCAB290FCBC30077E0A2 /* AnimalSearchAge.swift */; };
-		EF48FCD7290FCBC30077E0A2 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF48FCAD290FCBC30077E0A2 /* SearchView.swift */; };
-		EF48FCD8290FCBC30077E0A2 /* AnimalTypeSuggestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF48FCAE290FCBC30077E0A2 /* AnimalTypeSuggestionView.swift */; };
-		EF48FCD9290FCBC30077E0A2 /* EmptyResultsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF48FCAF290FCBC30077E0A2 /* EmptyResultsView.swift */; };
-		EF48FCDA290FCBC30077E0A2 /* SuggestionsGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF48FCB0290FCBC30077E0A2 /* SuggestionsGrid.swift */; };
-		EF48FCDB290FCBC30077E0A2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF48FCB1290FCBC30077E0A2 /* ContentView.swift */; };
-		EF48FCE2290FDD6B0077E0A2 /* Animal.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF48FCE1290FDD6B0077E0A2 /* Animal.swift */; };
-		EF48FCE4290FDE1A0077E0A2 /* AnimalsMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF48FCE3290FDE1A0077E0A2 /* AnimalsMock.swift */; };
-		EF48FCE6290FE0A30077E0A2 /* RequestProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF48FCE5290FE0A30077E0A2 /* RequestProtocol.swift */; };
-		EF48FCE8290FE1CF0077E0A2 /* RequestType.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF48FCE7290FE1CF0077E0A2 /* RequestType.swift */; };
-		EF48FCEA290FE8060077E0A2 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF48FCE9290FE8060077E0A2 /* NetworkError.swift */; };
-		EF48FCED2910120C0077E0A2 /* APIManagerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF48FCEC2910120C0077E0A2 /* APIManagerProtocol.swift */; };
 		EF6854F12907CB56004E0FBF /* AppMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6854F02907CB56004E0FBF /* AppMain.swift */; };
-		EF6854F52907CB57004E0FBF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF6854F42907CB57004E0FBF /* Assets.xcassets */; };
 		EF6855022907CB57004E0FBF /* PractiseSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6855012907CB57004E0FBF /* PractiseSwiftUITests.swift */; };
 		EF68550C2907CB57004E0FBF /* PractiseSwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF68550B2907CB57004E0FBF /* PractiseSwiftUIUITests.swift */; };
 		EF68550E2907CB57004E0FBF /* PractiseSwiftUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF68550D2907CB57004E0FBF /* PractiseSwiftUIUITestsLaunchTests.swift */; };
 		EF68551B290807D3004E0FBF /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF68551A290807D3004E0FBF /* CardView.swift */; };
-		EFA423F32912AB8200FA7BA7 /* AnimalsRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA423F22912AB8200FA7BA7 /* AnimalsRequest.swift */; };
-		EFA423F52912B6F400FA7BA7 /* AnimalsContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA423F42912B6F400FA7BA7 /* AnimalsContainer.swift */; };
-		EFA423F72912BD6900FA7BA7 /* AnimalRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA423F62912BD6900FA7BA7 /* AnimalRow.swift */; };
+		EF6FF9672917AE240038C291 /* AddressFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6FF91A2917AE230038C291 /* AddressFetcher.swift */; };
+		EF6FF9682917AE240038C291 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6FF91B2917AE230038C291 /* LocationManager.swift */; };
+		EF6FF9692917AE240038C291 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6FF91E2917AE230038C291 /* Persistence.swift */; };
+		EF6FF96A2917AE240038C291 /* PetSave.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EF6FF91F2917AE230038C291 /* PetSave.xcdatamodeld */; };
+		EF6FF96B2917AE240038C291 /* APIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6FF9222917AE230038C291 /* APIConstants.swift */; };
+		EF6FF96C2917AE240038C291 /* RequestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6FF9242917AE240038C291 /* RequestManager.swift */; };
+		EF6FF96D2917AE240038C291 /* APIManagerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6FF9252917AE240038C291 /* APIManagerProtocol.swift */; };
+		EF6FF96E2917AE240038C291 /* parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6FF9272917AE240038C291 /* parser.swift */; };
+		EF6FF96F2917AE240038C291 /* RequestProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6FF9282917AE240038C291 /* RequestProtocol.swift */; };
+		EF6FF9702917AE240038C291 /* APIToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6FF92A2917AE240038C291 /* APIToken.swift */; };
+		EF6FF9712917AE240038C291 /* AuthTokenRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6FF92D2917AE240038C291 /* AuthTokenRequest.swift */; };
+		EF6FF9722917AE240038C291 /* AnimalsContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6FF92F2917AE240038C291 /* AnimalsContainer.swift */; };
+		EF6FF9732917AE240038C291 /* AnimalsRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6FF9302917AE240038C291 /* AnimalsRequest.swift */; };
+		EF6FF9742917AE240038C291 /* RequestType.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6FF9312917AE240038C291 /* RequestType.swift */; };
+		EF6FF9752917AE240038C291 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6FF9322917AE240038C291 /* NetworkError.swift */; };
+		EF6FF9762917AE240038C291 /* Organization.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6FF9362917AE240038C291 /* Organization.swift */; };
+		EF6FF9772917AE240038C291 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6FF9382917AE240038C291 /* User.swift */; };
+		EF6FF9782917AE240038C291 /* APIColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6FF93A2917AE240038C291 /* APIColors.swift */; };
+		EF6FF9792917AE240038C291 /* AnimalEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6FF93B2917AE240038C291 /* AnimalEnvironment.swift */; };
+		EF6FF97A2917AE240038C291 /* Gender.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6FF93C2917AE240038C291 /* Gender.swift */; };
+		EF6FF97B2917AE240038C291 /* PhotoSizes.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6FF93D2917AE240038C291 /* PhotoSizes.swift */; };
+		EF6FF97C2917AE240038C291 /* AdoptionStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6FF93E2917AE240038C291 /* AdoptionStatus.swift */; };
+		EF6FF97D2917AE240038C291 /* VideoLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6FF93F2917AE240038C291 /* VideoLink.swift */; };
+		EF6FF97E2917AE240038C291 /* Details.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6FF9412917AE240038C291 /* Details.swift */; };
+		EF6FF97F2917AE240038C291 /* Size.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6FF9422917AE240038C291 /* Size.swift */; };
+		EF6FF9802917AE240038C291 /* Pagination.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6FF9432917AE240038C291 /* Pagination.swift */; };
+		EF6FF9812917AE240038C291 /* Age.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6FF9442917AE240038C291 /* Age.swift */; };
+		EF6FF9822917AE240038C291 /* Animal.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6FF9452917AE240038C291 /* Animal.swift */; };
+		EF6FF9832917AE240038C291 /* Coat.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6FF9462917AE240038C291 /* Coat.swift */; };
+		EF6FF9842917AE240038C291 /* Breed.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6FF9472917AE240038C291 /* Breed.swift */; };
+		EF6FF9852917AE240038C291 /* AnimalAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6FF9482917AE240038C291 /* AnimalAttributes.swift */; };
+		EF6FF9862917AE240038C291 /* AnimalsMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6FF9492917AE240038C291 /* AnimalsMock.swift */; };
+		EF6FF9872917AE240038C291 /* LaunchScreen.strings in Resources */ = {isa = PBXBuildFile; fileRef = EF6FF94A2917AE240038C291 /* LaunchScreen.strings */; };
+		EF6FF9892917AE240038C291 /* AnimalLocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6FF94F2917AE240038C291 /* AnimalLocationView.swift */; };
+		EF6FF98A2917AE240038C291 /* AnimalContactLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6FF9502917AE240038C291 /* AnimalContactLink.swift */; };
+		EF6FF98B2917AE240038C291 /* AnimalHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6FF9512917AE240038C291 /* AnimalHeaderView.swift */; };
+		EF6FF98C2917AE240038C291 /* AnimalDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6FF9522917AE240038C291 /* AnimalDetailsView.swift */; };
+		EF6FF98D2917AE240038C291 /* AnimalDetailCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6FF9532917AE240038C291 /* AnimalDetailCard.swift */; };
+		EF6FF98E2917AE240038C291 /* AnimalContactsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6FF9542917AE240038C291 /* AnimalContactsView.swift */; };
+		EF6FF98F2917AE240038C291 /* AnimalDetailRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6FF9552917AE240038C291 /* AnimalDetailRow.swift */; };
+		EF6FF9902917AE240038C291 /* AnimalsNearYouView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6FF9582917AE240038C291 /* AnimalsNearYouView.swift */; };
+		EF6FF9912917AE240038C291 /* AnimalRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6FF9592917AE240038C291 /* AnimalRow.swift */; };
+		EF6FF9922917AE240038C291 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF6FF95B2917AE240038C291 /* LaunchScreen.storyboard */; };
+		EF6FF9932917AE240038C291 /* AnimalSearchType.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6FF95F2917AE240038C291 /* AnimalSearchType.swift */; };
+		EF6FF9942917AE240038C291 /* AnimalSearchAge.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6FF9602917AE240038C291 /* AnimalSearchAge.swift */; };
+		EF6FF9952917AE240038C291 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6FF9622917AE240038C291 /* SearchView.swift */; };
+		EF6FF9962917AE240038C291 /* AnimalTypeSuggestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6FF9632917AE240038C291 /* AnimalTypeSuggestionView.swift */; };
+		EF6FF9972917AE240038C291 /* EmptyResultsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6FF9642917AE240038C291 /* EmptyResultsView.swift */; };
+		EF6FF9982917AE240038C291 /* SuggestionsGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6FF9652917AE240038C291 /* SuggestionsGrid.swift */; };
+		EF6FF9992917AE240038C291 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6FF9662917AE240038C291 /* ContentView.swift */; };
+		EF6FF99B2917AEB40038C291 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF6FF99A2917AEB40038C291 /* Assets.xcassets */; };
+		EF6FF99D2917AEE20038C291 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF6FF99C2917AEE20038C291 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -105,69 +105,69 @@
 		EF05C297290EC1D600AB5ADD /* SheetPresentchapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetPresentchapter.swift; sourceTree = "<group>"; };
 		EF2A106329096D26002211C6 /* CrazyAnimationTopToButtom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrazyAnimationTopToButtom.swift; sourceTree = "<group>"; };
 		EF398F25290D38E6002A7758 /* Restaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
-		EF3A30D2291163EB0080771E /* RequestManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestManager.swift; sourceTree = "<group>"; };
-		EF3A30D529116B1C0080771E /* parser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = parser.swift; sourceTree = "<group>"; };
-		EF3A30D929116F3B0080771E /* AuthTokenRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthTokenRequest.swift; sourceTree = "<group>"; };
-		EF3A30DC291170D50080771E /* APIToken.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIToken.swift; sourceTree = "<group>"; };
 		EF48FC39290FC9510077E0A2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EF48FC3A290FC9510077E0A2 /* AnimalsMock.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = AnimalsMock.json; sourceTree = "<group>"; };
-		EF48FC76290FCBC30077E0A2 /* AddressFetcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddressFetcher.swift; sourceTree = "<group>"; };
-		EF48FC77290FCBC30077E0A2 /* LocationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
-		EF48FC7A290FCBC30077E0A2 /* Persistence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
-		EF48FC7C290FCBC30077E0A2 /* PetSave.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PetSave.xcdatamodel; sourceTree = "<group>"; };
-		EF48FC7E290FCBC30077E0A2 /* APIConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIConstants.swift; sourceTree = "<group>"; };
-		EF48FC82290FCBC30077E0A2 /* Organization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Organization.swift; sourceTree = "<group>"; };
-		EF48FC84290FCBC30077E0A2 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
-		EF48FC86290FCBC30077E0A2 /* APIColors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIColors.swift; sourceTree = "<group>"; };
-		EF48FC87290FCBC30077E0A2 /* AnimalEnvironment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimalEnvironment.swift; sourceTree = "<group>"; };
-		EF48FC88290FCBC30077E0A2 /* Gender.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Gender.swift; sourceTree = "<group>"; };
-		EF48FC89290FCBC30077E0A2 /* PhotoSizes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoSizes.swift; sourceTree = "<group>"; };
-		EF48FC8A290FCBC30077E0A2 /* AdoptionStatus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdoptionStatus.swift; sourceTree = "<group>"; };
-		EF48FC8B290FCBC30077E0A2 /* VideoLink.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoLink.swift; sourceTree = "<group>"; };
-		EF48FC8D290FCBC30077E0A2 /* Details.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Details.swift; sourceTree = "<group>"; };
-		EF48FC8E290FCBC30077E0A2 /* Size.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Size.swift; sourceTree = "<group>"; };
-		EF48FC8F290FCBC30077E0A2 /* Pagination.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pagination.swift; sourceTree = "<group>"; };
-		EF48FC90290FCBC30077E0A2 /* Age.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Age.swift; sourceTree = "<group>"; };
-		EF48FC91290FCBC30077E0A2 /* Coat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Coat.swift; sourceTree = "<group>"; };
-		EF48FC92290FCBC30077E0A2 /* Breed.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Breed.swift; sourceTree = "<group>"; };
-		EF48FC93290FCBC30077E0A2 /* AnimalAttributes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimalAttributes.swift; sourceTree = "<group>"; };
-		EF48FC95290FCBC30077E0A2 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
-		EF48FC96290FCBC30077E0A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		EF48FC99290FCBC30077E0A2 /* AnimalLocationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimalLocationView.swift; sourceTree = "<group>"; };
-		EF48FC9A290FCBC30077E0A2 /* AnimalContactLink.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimalContactLink.swift; sourceTree = "<group>"; };
-		EF48FC9B290FCBC30077E0A2 /* AnimalHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimalHeaderView.swift; sourceTree = "<group>"; };
-		EF48FC9C290FCBC30077E0A2 /* AnimalDetailsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimalDetailsView.swift; sourceTree = "<group>"; };
-		EF48FC9D290FCBC30077E0A2 /* AnimalDetailCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimalDetailCard.swift; sourceTree = "<group>"; };
-		EF48FC9E290FCBC30077E0A2 /* AnimalContactsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimalContactsView.swift; sourceTree = "<group>"; };
-		EF48FC9F290FCBC30077E0A2 /* AnimalDetailRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimalDetailRow.swift; sourceTree = "<group>"; };
-		EF48FCA2290FCBC30077E0A2 /* AnimalsNearYouView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimalsNearYouView.swift; sourceTree = "<group>"; };
-		EF48FCA7290FCBC30077E0A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		EF48FCAA290FCBC30077E0A2 /* AnimalSearchType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimalSearchType.swift; sourceTree = "<group>"; };
-		EF48FCAB290FCBC30077E0A2 /* AnimalSearchAge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimalSearchAge.swift; sourceTree = "<group>"; };
-		EF48FCAD290FCBC30077E0A2 /* SearchView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
-		EF48FCAE290FCBC30077E0A2 /* AnimalTypeSuggestionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimalTypeSuggestionView.swift; sourceTree = "<group>"; };
-		EF48FCAF290FCBC30077E0A2 /* EmptyResultsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmptyResultsView.swift; sourceTree = "<group>"; };
-		EF48FCB0290FCBC30077E0A2 /* SuggestionsGrid.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SuggestionsGrid.swift; sourceTree = "<group>"; };
-		EF48FCB1290FCBC30077E0A2 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EF48FCDE290FD8020077E0A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		EF48FCE1290FDD6B0077E0A2 /* Animal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animal.swift; sourceTree = "<group>"; };
-		EF48FCE3290FDE1A0077E0A2 /* AnimalsMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalsMock.swift; sourceTree = "<group>"; };
-		EF48FCE5290FE0A30077E0A2 /* RequestProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestProtocol.swift; sourceTree = "<group>"; };
-		EF48FCE7290FE1CF0077E0A2 /* RequestType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestType.swift; sourceTree = "<group>"; };
-		EF48FCE9290FE8060077E0A2 /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
-		EF48FCEC2910120C0077E0A2 /* APIManagerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManagerProtocol.swift; sourceTree = "<group>"; };
 		EF6854ED2907CB56004E0FBF /* PractiseSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PractiseSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF6854F02907CB56004E0FBF /* AppMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppMain.swift; sourceTree = "<group>"; };
-		EF6854F42907CB57004E0FBF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EF6854FD2907CB57004E0FBF /* PractiseSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PractiseSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF6855012907CB57004E0FBF /* PractiseSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PractiseSwiftUITests.swift; sourceTree = "<group>"; };
 		EF6855072907CB57004E0FBF /* PractiseSwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PractiseSwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF68550B2907CB57004E0FBF /* PractiseSwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PractiseSwiftUIUITests.swift; sourceTree = "<group>"; };
 		EF68550D2907CB57004E0FBF /* PractiseSwiftUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PractiseSwiftUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		EF68551A290807D3004E0FBF /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
-		EFA423F22912AB8200FA7BA7 /* AnimalsRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalsRequest.swift; sourceTree = "<group>"; };
-		EFA423F42912B6F400FA7BA7 /* AnimalsContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalsContainer.swift; sourceTree = "<group>"; };
-		EFA423F62912BD6900FA7BA7 /* AnimalRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalRow.swift; sourceTree = "<group>"; };
+		EF6FF91A2917AE230038C291 /* AddressFetcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddressFetcher.swift; sourceTree = "<group>"; };
+		EF6FF91B2917AE230038C291 /* LocationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		EF6FF91E2917AE230038C291 /* Persistence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		EF6FF9202917AE230038C291 /* PetSave.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PetSave.xcdatamodel; sourceTree = "<group>"; };
+		EF6FF9222917AE230038C291 /* APIConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIConstants.swift; sourceTree = "<group>"; };
+		EF6FF9242917AE240038C291 /* RequestManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestManager.swift; sourceTree = "<group>"; };
+		EF6FF9252917AE240038C291 /* APIManagerProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIManagerProtocol.swift; sourceTree = "<group>"; };
+		EF6FF9272917AE240038C291 /* parser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = parser.swift; sourceTree = "<group>"; };
+		EF6FF9282917AE240038C291 /* RequestProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestProtocol.swift; sourceTree = "<group>"; };
+		EF6FF92A2917AE240038C291 /* APIToken.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIToken.swift; sourceTree = "<group>"; };
+		EF6FF92D2917AE240038C291 /* AuthTokenRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthTokenRequest.swift; sourceTree = "<group>"; };
+		EF6FF92F2917AE240038C291 /* AnimalsContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimalsContainer.swift; sourceTree = "<group>"; };
+		EF6FF9302917AE240038C291 /* AnimalsRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimalsRequest.swift; sourceTree = "<group>"; };
+		EF6FF9312917AE240038C291 /* RequestType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestType.swift; sourceTree = "<group>"; };
+		EF6FF9322917AE240038C291 /* NetworkError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		EF6FF9362917AE240038C291 /* Organization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Organization.swift; sourceTree = "<group>"; };
+		EF6FF9382917AE240038C291 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		EF6FF93A2917AE240038C291 /* APIColors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIColors.swift; sourceTree = "<group>"; };
+		EF6FF93B2917AE240038C291 /* AnimalEnvironment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimalEnvironment.swift; sourceTree = "<group>"; };
+		EF6FF93C2917AE240038C291 /* Gender.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Gender.swift; sourceTree = "<group>"; };
+		EF6FF93D2917AE240038C291 /* PhotoSizes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoSizes.swift; sourceTree = "<group>"; };
+		EF6FF93E2917AE240038C291 /* AdoptionStatus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdoptionStatus.swift; sourceTree = "<group>"; };
+		EF6FF93F2917AE240038C291 /* VideoLink.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoLink.swift; sourceTree = "<group>"; };
+		EF6FF9412917AE240038C291 /* Details.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Details.swift; sourceTree = "<group>"; };
+		EF6FF9422917AE240038C291 /* Size.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Size.swift; sourceTree = "<group>"; };
+		EF6FF9432917AE240038C291 /* Pagination.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pagination.swift; sourceTree = "<group>"; };
+		EF6FF9442917AE240038C291 /* Age.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Age.swift; sourceTree = "<group>"; };
+		EF6FF9452917AE240038C291 /* Animal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Animal.swift; sourceTree = "<group>"; };
+		EF6FF9462917AE240038C291 /* Coat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Coat.swift; sourceTree = "<group>"; };
+		EF6FF9472917AE240038C291 /* Breed.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Breed.swift; sourceTree = "<group>"; };
+		EF6FF9482917AE240038C291 /* AnimalAttributes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimalAttributes.swift; sourceTree = "<group>"; };
+		EF6FF9492917AE240038C291 /* AnimalsMock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimalsMock.swift; sourceTree = "<group>"; };
+		EF6FF94B2917AE240038C291 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		EF6FF94F2917AE240038C291 /* AnimalLocationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimalLocationView.swift; sourceTree = "<group>"; };
+		EF6FF9502917AE240038C291 /* AnimalContactLink.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimalContactLink.swift; sourceTree = "<group>"; };
+		EF6FF9512917AE240038C291 /* AnimalHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimalHeaderView.swift; sourceTree = "<group>"; };
+		EF6FF9522917AE240038C291 /* AnimalDetailsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimalDetailsView.swift; sourceTree = "<group>"; };
+		EF6FF9532917AE240038C291 /* AnimalDetailCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimalDetailCard.swift; sourceTree = "<group>"; };
+		EF6FF9542917AE240038C291 /* AnimalContactsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimalContactsView.swift; sourceTree = "<group>"; };
+		EF6FF9552917AE240038C291 /* AnimalDetailRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimalDetailRow.swift; sourceTree = "<group>"; };
+		EF6FF9582917AE240038C291 /* AnimalsNearYouView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimalsNearYouView.swift; sourceTree = "<group>"; };
+		EF6FF9592917AE240038C291 /* AnimalRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimalRow.swift; sourceTree = "<group>"; };
+		EF6FF95C2917AE240038C291 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EF6FF95F2917AE240038C291 /* AnimalSearchType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimalSearchType.swift; sourceTree = "<group>"; };
+		EF6FF9602917AE240038C291 /* AnimalSearchAge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimalSearchAge.swift; sourceTree = "<group>"; };
+		EF6FF9622917AE240038C291 /* SearchView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		EF6FF9632917AE240038C291 /* AnimalTypeSuggestionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimalTypeSuggestionView.swift; sourceTree = "<group>"; };
+		EF6FF9642917AE240038C291 /* EmptyResultsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmptyResultsView.swift; sourceTree = "<group>"; };
+		EF6FF9652917AE240038C291 /* SuggestionsGrid.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SuggestionsGrid.swift; sourceTree = "<group>"; };
+		EF6FF9662917AE240038C291 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EF6FF99A2917AEB40038C291 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF6FF99C2917AEE20038C291 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F82233DAD032D5AE7A5BA9F0 /* Pods_PractiseSwiftUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PractiseSwiftUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -238,39 +238,6 @@
 			path = practiceList;
 			sourceTree = "<group>";
 		};
-		EF3A30D429116AE30080771E /* parser */ = {
-			isa = PBXGroup;
-			children = (
-				EF3A30D529116B1C0080771E /* parser.swift */,
-			);
-			path = parser;
-			sourceTree = "<group>";
-		};
-		EF3A30D729116E040080771E /* request */ = {
-			isa = PBXGroup;
-			children = (
-				EFA423F12912AB7000FA7BA7 /* animals */,
-				EF3A30D829116F290080771E /* auth */,
-			);
-			path = request;
-			sourceTree = "<group>";
-		};
-		EF3A30D829116F290080771E /* auth */ = {
-			isa = PBXGroup;
-			children = (
-				EF3A30D929116F3B0080771E /* AuthTokenRequest.swift */,
-			);
-			path = auth;
-			sourceTree = "<group>";
-		};
-		EF3A30DB291170BA0080771E /* model */ = {
-			isa = PBXGroup;
-			children = (
-				EF3A30DC291170D50080771E /* APIToken.swift */,
-			);
-			path = model;
-			sourceTree = "<group>";
-		};
 		EF48FC05290FB2250077E0A2 /* CardView */ = {
 			isa = PBXGroup;
 			children = (
@@ -307,215 +274,6 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		EF48FC73290FCBC30077E0A2 /* PetSave */ = {
-			isa = PBXGroup;
-			children = (
-				EF48FC96290FCBC30077E0A2 /* Assets.xcassets */,
-				EF48FC94290FCBC30077E0A2 /* LaunchScreen.strings */,
-				EF48FCA6290FCBC30077E0A2 /* LaunchScreen.storyboard */,
-				EF48FC74290FCBC30077E0A2 /* Core */,
-				EF48FC97290FCBC30077E0A2 /* AnimalDetails */,
-				EF48FCA0290FCBC30077E0A2 /* AnimalsNearYou */,
-				EF48FCA8290FCBC30077E0A2 /* Search */,
-				EF48FCB1290FCBC30077E0A2 /* ContentView.swift */,
-			);
-			name = PetSave;
-			path = "../../rwi-materials-editions-1.0/01-introduction/projects/starter/PetSave";
-			sourceTree = "<group>";
-		};
-		EF48FC74290FCBC30077E0A2 /* Core */ = {
-			isa = PBXGroup;
-			children = (
-				EF48FC75290FCBC30077E0A2 /* utils */,
-				EF48FC78290FCBC30077E0A2 /* data */,
-				EF48FC7F290FCBC30077E0A2 /* domain */,
-			);
-			path = Core;
-			sourceTree = "<group>";
-		};
-		EF48FC75290FCBC30077E0A2 /* utils */ = {
-			isa = PBXGroup;
-			children = (
-				EF48FC76290FCBC30077E0A2 /* AddressFetcher.swift */,
-				EF48FC77290FCBC30077E0A2 /* LocationManager.swift */,
-			);
-			path = utils;
-			sourceTree = "<group>";
-		};
-		EF48FC78290FCBC30077E0A2 /* data */ = {
-			isa = PBXGroup;
-			children = (
-				EF48FC79290FCBC30077E0A2 /* coreData */,
-				EF48FC7D290FCBC30077E0A2 /* api */,
-			);
-			path = data;
-			sourceTree = "<group>";
-		};
-		EF48FC79290FCBC30077E0A2 /* coreData */ = {
-			isa = PBXGroup;
-			children = (
-				EF48FC7A290FCBC30077E0A2 /* Persistence.swift */,
-				EF48FC7B290FCBC30077E0A2 /* PetSave.xcdatamodeld */,
-			);
-			path = coreData;
-			sourceTree = "<group>";
-		};
-		EF48FC7D290FCBC30077E0A2 /* api */ = {
-			isa = PBXGroup;
-			children = (
-				EF3A30DB291170BA0080771E /* model */,
-				EF3A30D729116E040080771E /* request */,
-				EF3A30D429116AE30080771E /* parser */,
-				EF48FCEB291011E20077E0A2 /* network */,
-				EF48FC7E290FCBC30077E0A2 /* APIConstants.swift */,
-				EF48FCE5290FE0A30077E0A2 /* RequestProtocol.swift */,
-				EF48FCE7290FE1CF0077E0A2 /* RequestType.swift */,
-				EF48FCE9290FE8060077E0A2 /* NetworkError.swift */,
-			);
-			path = api;
-			sourceTree = "<group>";
-		};
-		EF48FC7F290FCBC30077E0A2 /* domain */ = {
-			isa = PBXGroup;
-			children = (
-				EF48FC80290FCBC30077E0A2 /* model */,
-			);
-			path = domain;
-			sourceTree = "<group>";
-		};
-		EF48FC80290FCBC30077E0A2 /* model */ = {
-			isa = PBXGroup;
-			children = (
-				EF48FC81290FCBC30077E0A2 /* organization */,
-				EF48FC83290FCBC30077E0A2 /* user */,
-				EF48FC85290FCBC30077E0A2 /* animal */,
-			);
-			path = model;
-			sourceTree = "<group>";
-		};
-		EF48FC81290FCBC30077E0A2 /* organization */ = {
-			isa = PBXGroup;
-			children = (
-				EF48FC82290FCBC30077E0A2 /* Organization.swift */,
-			);
-			path = organization;
-			sourceTree = "<group>";
-		};
-		EF48FC83290FCBC30077E0A2 /* user */ = {
-			isa = PBXGroup;
-			children = (
-				EF48FC84290FCBC30077E0A2 /* User.swift */,
-			);
-			path = user;
-			sourceTree = "<group>";
-		};
-		EF48FC85290FCBC30077E0A2 /* animal */ = {
-			isa = PBXGroup;
-			children = (
-				EF48FC86290FCBC30077E0A2 /* APIColors.swift */,
-				EF48FC87290FCBC30077E0A2 /* AnimalEnvironment.swift */,
-				EF48FC88290FCBC30077E0A2 /* Gender.swift */,
-				EF48FC89290FCBC30077E0A2 /* PhotoSizes.swift */,
-				EF48FC8A290FCBC30077E0A2 /* AdoptionStatus.swift */,
-				EF48FC8B290FCBC30077E0A2 /* VideoLink.swift */,
-				EF48FC8C290FCBC30077E0A2 /* details */,
-				EF48FC8E290FCBC30077E0A2 /* Size.swift */,
-				EF48FC8F290FCBC30077E0A2 /* Pagination.swift */,
-				EF48FC90290FCBC30077E0A2 /* Age.swift */,
-				EF48FC91290FCBC30077E0A2 /* Coat.swift */,
-				EF48FC92290FCBC30077E0A2 /* Breed.swift */,
-				EF48FC93290FCBC30077E0A2 /* AnimalAttributes.swift */,
-				EF48FCE1290FDD6B0077E0A2 /* Animal.swift */,
-				EF48FCE3290FDE1A0077E0A2 /* AnimalsMock.swift */,
-			);
-			path = animal;
-			sourceTree = "<group>";
-		};
-		EF48FC8C290FCBC30077E0A2 /* details */ = {
-			isa = PBXGroup;
-			children = (
-				EF48FC8D290FCBC30077E0A2 /* Details.swift */,
-			);
-			path = details;
-			sourceTree = "<group>";
-		};
-		EF48FC97290FCBC30077E0A2 /* AnimalDetails */ = {
-			isa = PBXGroup;
-			children = (
-				EF48FC98290FCBC30077E0A2 /* views */,
-			);
-			path = AnimalDetails;
-			sourceTree = "<group>";
-		};
-		EF48FC98290FCBC30077E0A2 /* views */ = {
-			isa = PBXGroup;
-			children = (
-				EF48FC99290FCBC30077E0A2 /* AnimalLocationView.swift */,
-				EF48FC9A290FCBC30077E0A2 /* AnimalContactLink.swift */,
-				EF48FC9B290FCBC30077E0A2 /* AnimalHeaderView.swift */,
-				EF48FC9C290FCBC30077E0A2 /* AnimalDetailsView.swift */,
-				EF48FC9D290FCBC30077E0A2 /* AnimalDetailCard.swift */,
-				EF48FC9E290FCBC30077E0A2 /* AnimalContactsView.swift */,
-				EF48FC9F290FCBC30077E0A2 /* AnimalDetailRow.swift */,
-			);
-			path = views;
-			sourceTree = "<group>";
-		};
-		EF48FCA0290FCBC30077E0A2 /* AnimalsNearYou */ = {
-			isa = PBXGroup;
-			children = (
-				EF48FCA1290FCBC30077E0A2 /* views */,
-			);
-			path = AnimalsNearYou;
-			sourceTree = "<group>";
-		};
-		EF48FCA1290FCBC30077E0A2 /* views */ = {
-			isa = PBXGroup;
-			children = (
-				EF48FCA2290FCBC30077E0A2 /* AnimalsNearYouView.swift */,
-				EFA423F62912BD6900FA7BA7 /* AnimalRow.swift */,
-			);
-			path = views;
-			sourceTree = "<group>";
-		};
-		EF48FCA8290FCBC30077E0A2 /* Search */ = {
-			isa = PBXGroup;
-			children = (
-				EF48FCA9290FCBC30077E0A2 /* models */,
-				EF48FCAC290FCBC30077E0A2 /* views */,
-			);
-			path = Search;
-			sourceTree = "<group>";
-		};
-		EF48FCA9290FCBC30077E0A2 /* models */ = {
-			isa = PBXGroup;
-			children = (
-				EF48FCAA290FCBC30077E0A2 /* AnimalSearchType.swift */,
-				EF48FCAB290FCBC30077E0A2 /* AnimalSearchAge.swift */,
-			);
-			path = models;
-			sourceTree = "<group>";
-		};
-		EF48FCAC290FCBC30077E0A2 /* views */ = {
-			isa = PBXGroup;
-			children = (
-				EF48FCAD290FCBC30077E0A2 /* SearchView.swift */,
-				EF48FCAE290FCBC30077E0A2 /* AnimalTypeSuggestionView.swift */,
-				EF48FCAF290FCBC30077E0A2 /* EmptyResultsView.swift */,
-				EF48FCB0290FCBC30077E0A2 /* SuggestionsGrid.swift */,
-			);
-			path = views;
-			sourceTree = "<group>";
-		};
-		EF48FCEB291011E20077E0A2 /* network */ = {
-			isa = PBXGroup;
-			children = (
-				EF48FCEC2910120C0077E0A2 /* APIManagerProtocol.swift */,
-				EF3A30D2291163EB0080771E /* RequestManager.swift */,
-			);
-			path = network;
-			sourceTree = "<group>";
-		};
 		EF6854E42907CB56004E0FBF = {
 			isa = PBXGroup;
 			children = (
@@ -541,13 +299,13 @@
 		EF6854EF2907CB56004E0FBF /* PractiseSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
-				EF48FCDE290FD8020077E0A2 /* Info.plist */,
-				EF48FC3A290FC9510077E0A2 /* AnimalsMock.json */,
 				EF6854F02907CB56004E0FBF /* AppMain.swift */,
-				EF48FC38290FC9510077E0A2 /* Preview Content */,
+				EF48FC3A290FC9510077E0A2 /* AnimalsMock.json */,
 				EF48FC07290FC87A0077E0A2 /* olderProject */,
-				EF48FC73290FCBC30077E0A2 /* PetSave */,
-				EF6854F42907CB57004E0FBF /* Assets.xcassets */,
+				EF48FC38290FC9510077E0A2 /* Preview Content */,
+				EF6FF9172917AE230038C291 /* PetSave */,
+				EF48FCDE290FD8020077E0A2 /* Info.plist */,
+				EF6FF99C2917AEE20038C291 /* Assets.xcassets */,
 			);
 			path = PractiseSwiftUI;
 			sourceTree = "<group>";
@@ -569,13 +327,262 @@
 			path = PractiseSwiftUIUITests;
 			sourceTree = "<group>";
 		};
-		EFA423F12912AB7000FA7BA7 /* animals */ = {
+		EF6FF9172917AE230038C291 /* PetSave */ = {
 			isa = PBXGroup;
 			children = (
-				EFA423F22912AB8200FA7BA7 /* AnimalsRequest.swift */,
-				EFA423F42912B6F400FA7BA7 /* AnimalsContainer.swift */,
+				EF6FF99A2917AEB40038C291 /* Assets.xcassets */,
+				EF6FF9182917AE230038C291 /* Core */,
+				EF6FF94A2917AE240038C291 /* LaunchScreen.strings */,
+				EF6FF94D2917AE240038C291 /* AnimalDetails */,
+				EF6FF9562917AE240038C291 /* AnimalsNearYou */,
+				EF6FF95A2917AE240038C291 /* Preview Content */,
+				EF6FF95B2917AE240038C291 /* LaunchScreen.storyboard */,
+				EF6FF95D2917AE240038C291 /* Search */,
+				EF6FF9662917AE240038C291 /* ContentView.swift */,
+			);
+			path = PetSave;
+			sourceTree = "<group>";
+		};
+		EF6FF9182917AE230038C291 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				EF6FF9192917AE230038C291 /* utils */,
+				EF6FF91C2917AE230038C291 /* data */,
+				EF6FF9332917AE240038C291 /* domain */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		EF6FF9192917AE230038C291 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				EF6FF91A2917AE230038C291 /* AddressFetcher.swift */,
+				EF6FF91B2917AE230038C291 /* LocationManager.swift */,
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
+		EF6FF91C2917AE230038C291 /* data */ = {
+			isa = PBXGroup;
+			children = (
+				EF6FF91D2917AE230038C291 /* coreData */,
+				EF6FF9212917AE230038C291 /* api */,
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
+		EF6FF91D2917AE230038C291 /* coreData */ = {
+			isa = PBXGroup;
+			children = (
+				EF6FF91E2917AE230038C291 /* Persistence.swift */,
+				EF6FF91F2917AE230038C291 /* PetSave.xcdatamodeld */,
+			);
+			path = coreData;
+			sourceTree = "<group>";
+		};
+		EF6FF9212917AE230038C291 /* api */ = {
+			isa = PBXGroup;
+			children = (
+				EF6FF9222917AE230038C291 /* APIConstants.swift */,
+				EF6FF9232917AE230038C291 /* network */,
+				EF6FF9262917AE240038C291 /* parser */,
+				EF6FF9282917AE240038C291 /* RequestProtocol.swift */,
+				EF6FF9292917AE240038C291 /* model */,
+				EF6FF92B2917AE240038C291 /* request */,
+				EF6FF9312917AE240038C291 /* RequestType.swift */,
+				EF6FF9322917AE240038C291 /* NetworkError.swift */,
+			);
+			path = api;
+			sourceTree = "<group>";
+		};
+		EF6FF9232917AE230038C291 /* network */ = {
+			isa = PBXGroup;
+			children = (
+				EF6FF9242917AE240038C291 /* RequestManager.swift */,
+				EF6FF9252917AE240038C291 /* APIManagerProtocol.swift */,
+			);
+			path = network;
+			sourceTree = "<group>";
+		};
+		EF6FF9262917AE240038C291 /* parser */ = {
+			isa = PBXGroup;
+			children = (
+				EF6FF9272917AE240038C291 /* parser.swift */,
+			);
+			path = parser;
+			sourceTree = "<group>";
+		};
+		EF6FF9292917AE240038C291 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				EF6FF92A2917AE240038C291 /* APIToken.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		EF6FF92B2917AE240038C291 /* request */ = {
+			isa = PBXGroup;
+			children = (
+				EF6FF92C2917AE240038C291 /* auth */,
+				EF6FF92E2917AE240038C291 /* animals */,
+			);
+			path = request;
+			sourceTree = "<group>";
+		};
+		EF6FF92C2917AE240038C291 /* auth */ = {
+			isa = PBXGroup;
+			children = (
+				EF6FF92D2917AE240038C291 /* AuthTokenRequest.swift */,
+			);
+			path = auth;
+			sourceTree = "<group>";
+		};
+		EF6FF92E2917AE240038C291 /* animals */ = {
+			isa = PBXGroup;
+			children = (
+				EF6FF92F2917AE240038C291 /* AnimalsContainer.swift */,
+				EF6FF9302917AE240038C291 /* AnimalsRequest.swift */,
 			);
 			path = animals;
+			sourceTree = "<group>";
+		};
+		EF6FF9332917AE240038C291 /* domain */ = {
+			isa = PBXGroup;
+			children = (
+				EF6FF9342917AE240038C291 /* model */,
+			);
+			path = domain;
+			sourceTree = "<group>";
+		};
+		EF6FF9342917AE240038C291 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				EF6FF9352917AE240038C291 /* organization */,
+				EF6FF9372917AE240038C291 /* user */,
+				EF6FF9392917AE240038C291 /* animal */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		EF6FF9352917AE240038C291 /* organization */ = {
+			isa = PBXGroup;
+			children = (
+				EF6FF9362917AE240038C291 /* Organization.swift */,
+			);
+			path = organization;
+			sourceTree = "<group>";
+		};
+		EF6FF9372917AE240038C291 /* user */ = {
+			isa = PBXGroup;
+			children = (
+				EF6FF9382917AE240038C291 /* User.swift */,
+			);
+			path = user;
+			sourceTree = "<group>";
+		};
+		EF6FF9392917AE240038C291 /* animal */ = {
+			isa = PBXGroup;
+			children = (
+				EF6FF93A2917AE240038C291 /* APIColors.swift */,
+				EF6FF93B2917AE240038C291 /* AnimalEnvironment.swift */,
+				EF6FF93C2917AE240038C291 /* Gender.swift */,
+				EF6FF93D2917AE240038C291 /* PhotoSizes.swift */,
+				EF6FF93E2917AE240038C291 /* AdoptionStatus.swift */,
+				EF6FF93F2917AE240038C291 /* VideoLink.swift */,
+				EF6FF9402917AE240038C291 /* details */,
+				EF6FF9422917AE240038C291 /* Size.swift */,
+				EF6FF9432917AE240038C291 /* Pagination.swift */,
+				EF6FF9442917AE240038C291 /* Age.swift */,
+				EF6FF9452917AE240038C291 /* Animal.swift */,
+				EF6FF9462917AE240038C291 /* Coat.swift */,
+				EF6FF9472917AE240038C291 /* Breed.swift */,
+				EF6FF9482917AE240038C291 /* AnimalAttributes.swift */,
+				EF6FF9492917AE240038C291 /* AnimalsMock.swift */,
+			);
+			path = animal;
+			sourceTree = "<group>";
+		};
+		EF6FF9402917AE240038C291 /* details */ = {
+			isa = PBXGroup;
+			children = (
+				EF6FF9412917AE240038C291 /* Details.swift */,
+			);
+			path = details;
+			sourceTree = "<group>";
+		};
+		EF6FF94D2917AE240038C291 /* AnimalDetails */ = {
+			isa = PBXGroup;
+			children = (
+				EF6FF94E2917AE240038C291 /* views */,
+			);
+			path = AnimalDetails;
+			sourceTree = "<group>";
+		};
+		EF6FF94E2917AE240038C291 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				EF6FF94F2917AE240038C291 /* AnimalLocationView.swift */,
+				EF6FF9502917AE240038C291 /* AnimalContactLink.swift */,
+				EF6FF9512917AE240038C291 /* AnimalHeaderView.swift */,
+				EF6FF9522917AE240038C291 /* AnimalDetailsView.swift */,
+				EF6FF9532917AE240038C291 /* AnimalDetailCard.swift */,
+				EF6FF9542917AE240038C291 /* AnimalContactsView.swift */,
+				EF6FF9552917AE240038C291 /* AnimalDetailRow.swift */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		EF6FF9562917AE240038C291 /* AnimalsNearYou */ = {
+			isa = PBXGroup;
+			children = (
+				EF6FF9572917AE240038C291 /* views */,
+			);
+			path = AnimalsNearYou;
+			sourceTree = "<group>";
+		};
+		EF6FF9572917AE240038C291 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				EF6FF9582917AE240038C291 /* AnimalsNearYouView.swift */,
+				EF6FF9592917AE240038C291 /* AnimalRow.swift */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		EF6FF95A2917AE240038C291 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EF6FF95D2917AE240038C291 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				EF6FF95E2917AE240038C291 /* models */,
+				EF6FF9612917AE240038C291 /* views */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		EF6FF95E2917AE240038C291 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				EF6FF95F2917AE240038C291 /* AnimalSearchType.swift */,
+				EF6FF9602917AE240038C291 /* AnimalSearchAge.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		EF6FF9612917AE240038C291 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				EF6FF9622917AE240038C291 /* SearchView.swift */,
+				EF6FF9632917AE240038C291 /* AnimalTypeSuggestionView.swift */,
+				EF6FF9642917AE240038C291 /* EmptyResultsView.swift */,
+				EF6FF9652917AE240038C291 /* SuggestionsGrid.swift */,
+			);
+			path = views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -687,11 +694,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF48FC67290FC9510077E0A2 /* Preview Assets.xcassets in Resources */,
-				EF48FCD4290FCBC30077E0A2 /* LaunchScreen.storyboard in Resources */,
-				EF6854F52907CB57004E0FBF /* Assets.xcassets in Resources */,
 				EF48FC68290FC9510077E0A2 /* AnimalsMock.json in Resources */,
-				EF48FCC8290FCBC30077E0A2 /* LaunchScreen.strings in Resources */,
-				EF48FCC9290FCBC30077E0A2 /* Assets.xcassets in Resources */,
+				EF6FF9922917AE240038C291 /* LaunchScreen.storyboard in Resources */,
+				EF6FF99B2917AEB40038C291 /* Assets.xcassets in Resources */,
+				EF6FF99D2917AEE20038C291 /* Assets.xcassets in Resources */,
+				EF6FF9872917AE240038C291 /* LaunchScreen.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -785,60 +792,60 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF48FCBB290FCBC30077E0A2 /* APIColors.swift in Sources */,
-				EF48FCDA290FCBC30077E0A2 /* SuggestionsGrid.swift in Sources */,
-				EF48FCC2290FCBC30077E0A2 /* Size.swift in Sources */,
-				EF3A30D3291163EB0080771E /* RequestManager.swift in Sources */,
-				EF48FCBA290FCBC30077E0A2 /* User.swift in Sources */,
-				EF48FCCE290FCBC30077E0A2 /* AnimalDetailCard.swift in Sources */,
-				EFA423F52912B6F400FA7BA7 /* AnimalsContainer.swift in Sources */,
-				EF48FCC6290FCBC30077E0A2 /* Breed.swift in Sources */,
-				EF48FCB6290FCBC30077E0A2 /* Persistence.swift in Sources */,
-				EF48FCC5290FCBC30077E0A2 /* Coat.swift in Sources */,
-				EF48FCBF290FCBC30077E0A2 /* AdoptionStatus.swift in Sources */,
-				EF48FCBE290FCBC30077E0A2 /* PhotoSizes.swift in Sources */,
-				EF48FCC4290FCBC30077E0A2 /* Age.swift in Sources */,
-				EF48FCE2290FDD6B0077E0A2 /* Animal.swift in Sources */,
-				EF48FCC0290FCBC30077E0A2 /* VideoLink.swift in Sources */,
-				EF48FCD0290FCBC30077E0A2 /* AnimalDetailRow.swift in Sources */,
-				EF48FCCB290FCBC30077E0A2 /* AnimalContactLink.swift in Sources */,
-				EF48FCD6290FCBC30077E0A2 /* AnimalSearchAge.swift in Sources */,
-				EFA423F32912AB8200FA7BA7 /* AnimalsRequest.swift in Sources */,
-				EF48FCC3290FCBC30077E0A2 /* Pagination.swift in Sources */,
-				EF48FCCC290FCBC30077E0A2 /* AnimalHeaderView.swift in Sources */,
-				EF48FCC1290FCBC30077E0A2 /* Details.swift in Sources */,
-				EF48FCB8290FCBC30077E0A2 /* APIConstants.swift in Sources */,
+				EF6FF9842917AE240038C291 /* Breed.swift in Sources */,
+				EF6FF9862917AE240038C291 /* AnimalsMock.swift in Sources */,
+				EF6FF96E2917AE240038C291 /* parser.swift in Sources */,
+				EF6FF9822917AE240038C291 /* Animal.swift in Sources */,
+				EF6FF9692917AE240038C291 /* Persistence.swift in Sources */,
+				EF6FF9762917AE240038C291 /* Organization.swift in Sources */,
+				EF6FF96B2917AE240038C291 /* APIConstants.swift in Sources */,
+				EF6FF9732917AE240038C291 /* AnimalsRequest.swift in Sources */,
 				EF05C296290E8CE400AB5ADD /* NavigationChapter.swift in Sources */,
+				EF6FF9942917AE240038C291 /* AnimalSearchAge.swift in Sources */,
+				EF6FF98C2917AE240038C291 /* AnimalDetailsView.swift in Sources */,
+				EF6FF9702917AE240038C291 /* APIToken.swift in Sources */,
+				EF6FF9932917AE240038C291 /* AnimalSearchType.swift in Sources */,
+				EF6FF96C2917AE240038C291 /* RequestManager.swift in Sources */,
+				EF6FF9992917AE240038C291 /* ContentView.swift in Sources */,
+				EF6FF97A2917AE240038C291 /* Gender.swift in Sources */,
 				EF05C298290EC1D600AB5ADD /* SheetPresentchapter.swift in Sources */,
 				EF398F26290D38E6002A7758 /* Restaurant.swift in Sources */,
-				EF48FCB7290FCBC30077E0A2 /* PetSave.xcdatamodeld in Sources */,
+				EF6FF96D2917AE240038C291 /* APIManagerProtocol.swift in Sources */,
+				EF6FF9722917AE240038C291 /* AnimalsContainer.swift in Sources */,
+				EF6FF97C2917AE240038C291 /* AdoptionStatus.swift in Sources */,
+				EF6FF96A2917AE240038C291 /* PetSave.xcdatamodeld in Sources */,
+				EF6FF9972917AE240038C291 /* EmptyResultsView.swift in Sources */,
+				EF6FF96F2917AE240038C291 /* RequestProtocol.swift in Sources */,
+				EF6FF9782917AE240038C291 /* APIColors.swift in Sources */,
+				EF6FF98B2917AE240038C291 /* AnimalHeaderView.swift in Sources */,
+				EF6FF97D2917AE240038C291 /* VideoLink.swift in Sources */,
+				EF6FF9832917AE240038C291 /* Coat.swift in Sources */,
 				EF68551B290807D3004E0FBF /* CardView.swift in Sources */,
-				EF48FCEA290FE8060077E0A2 /* NetworkError.swift in Sources */,
-				EF48FCD7290FCBC30077E0A2 /* SearchView.swift in Sources */,
-				EF48FCB5290FCBC30077E0A2 /* LocationManager.swift in Sources */,
+				EF6FF9712917AE240038C291 /* AuthTokenRequest.swift in Sources */,
+				EF6FF9752917AE240038C291 /* NetworkError.swift in Sources */,
+				EF6FF9982917AE240038C291 /* SuggestionsGrid.swift in Sources */,
+				EF6FF9802917AE240038C291 /* Pagination.swift in Sources */,
+				EF6FF98D2917AE240038C291 /* AnimalDetailCard.swift in Sources */,
+				EF6FF9682917AE240038C291 /* LocationManager.swift in Sources */,
+				EF6FF97F2917AE240038C291 /* Size.swift in Sources */,
 				EF6854F12907CB56004E0FBF /* AppMain.swift in Sources */,
-				EF48FCDB290FCBC30077E0A2 /* ContentView.swift in Sources */,
-				EF48FCC7290FCBC30077E0A2 /* AnimalAttributes.swift in Sources */,
+				EF6FF9912917AE240038C291 /* AnimalRow.swift in Sources */,
+				EF6FF98F2917AE240038C291 /* AnimalDetailRow.swift in Sources */,
 				EF2A106429096D26002211C6 /* CrazyAnimationTopToButtom.swift in Sources */,
-				EF48FCBD290FCBC30077E0A2 /* Gender.swift in Sources */,
-				EF48FCB9290FCBC30077E0A2 /* Organization.swift in Sources */,
-				EF48FCE4290FDE1A0077E0A2 /* AnimalsMock.swift in Sources */,
-				EF48FCCA290FCBC30077E0A2 /* AnimalLocationView.swift in Sources */,
-				EF3A30DD291170D50080771E /* APIToken.swift in Sources */,
-				EFA423F72912BD6900FA7BA7 /* AnimalRow.swift in Sources */,
-				EF48FCCD290FCBC30077E0A2 /* AnimalDetailsView.swift in Sources */,
-				EF48FCD1290FCBC30077E0A2 /* AnimalsNearYouView.swift in Sources */,
-				EF3A30DA29116F3B0080771E /* AuthTokenRequest.swift in Sources */,
-				EF48FCB4290FCBC30077E0A2 /* AddressFetcher.swift in Sources */,
-				EF48FCD9290FCBC30077E0A2 /* EmptyResultsView.swift in Sources */,
-				EF48FCE6290FE0A30077E0A2 /* RequestProtocol.swift in Sources */,
-				EF3A30D629116B1C0080771E /* parser.swift in Sources */,
-				EF48FCD5290FCBC30077E0A2 /* AnimalSearchType.swift in Sources */,
-				EF48FCBC290FCBC30077E0A2 /* AnimalEnvironment.swift in Sources */,
-				EF48FCD8290FCBC30077E0A2 /* AnimalTypeSuggestionView.swift in Sources */,
-				EF48FCCF290FCBC30077E0A2 /* AnimalContactsView.swift in Sources */,
-				EF48FCE8290FE1CF0077E0A2 /* RequestType.swift in Sources */,
-				EF48FCED2910120C0077E0A2 /* APIManagerProtocol.swift in Sources */,
+				EF6FF98A2917AE240038C291 /* AnimalContactLink.swift in Sources */,
+				EF6FF9672917AE240038C291 /* AddressFetcher.swift in Sources */,
+				EF6FF9742917AE240038C291 /* RequestType.swift in Sources */,
+				EF6FF9952917AE240038C291 /* SearchView.swift in Sources */,
+				EF6FF97E2917AE240038C291 /* Details.swift in Sources */,
+				EF6FF97B2917AE240038C291 /* PhotoSizes.swift in Sources */,
+				EF6FF9812917AE240038C291 /* Age.swift in Sources */,
+				EF6FF98E2917AE240038C291 /* AnimalContactsView.swift in Sources */,
+				EF6FF9852917AE240038C291 /* AnimalAttributes.swift in Sources */,
+				EF6FF9892917AE240038C291 /* AnimalLocationView.swift in Sources */,
+				EF6FF9962917AE240038C291 /* AnimalTypeSuggestionView.swift in Sources */,
+				EF6FF9772917AE240038C291 /* User.swift in Sources */,
+				EF6FF9902917AE240038C291 /* AnimalsNearYouView.swift in Sources */,
+				EF6FF9792917AE240038C291 /* AnimalEnvironment.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -875,18 +882,18 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		EF48FC94290FCBC30077E0A2 /* LaunchScreen.strings */ = {
+		EF6FF94A2917AE240038C291 /* LaunchScreen.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				EF48FC95290FCBC30077E0A2 /* es */,
+				EF6FF94B2917AE240038C291 /* es */,
 			);
 			name = LaunchScreen.strings;
 			sourceTree = "<group>";
 		};
-		EF48FCA6290FCBC30077E0A2 /* LaunchScreen.storyboard */ = {
+		EF6FF95B2917AE240038C291 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				EF48FCA7290FCBC30077E0A2 /* Base */,
+				EF6FF95C2917AE240038C291 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -1200,12 +1207,12 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		EF48FC7B290FCBC30077E0A2 /* PetSave.xcdatamodeld */ = {
+		EF6FF91F2917AE230038C291 /* PetSave.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				EF48FC7C290FCBC30077E0A2 /* PetSave.xcdatamodel */,
+				EF6FF9202917AE230038C291 /* PetSave.xcdatamodel */,
 			);
-			currentVersion = EF48FC7C290FCBC30077E0A2 /* PetSave.xcdatamodel */;
+			currentVersion = EF6FF9202917AE230038C291 /* PetSave.xcdatamodel */;
 			path = PetSave.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
