@@ -26,7 +26,8 @@ class APIManager: APIManagerProtocol{
         
         let (data, response) = try await urlSession.data(for: request.createURlRequest(authToken: authToken))
         
-        guard let httpResponse = response as? HTTPURLResponse, httpResponse.statusCode == 200 else {
+        guard let httpResponse = response as? HTTPURLResponse,
+                httpResponse.statusCode == 200 else {
             throw NetworkError.invalidServerResponse
         }
         
@@ -36,6 +37,5 @@ class APIManager: APIManagerProtocol{
     func requestToken() async throws -> Data {
         return try await perform(AuthTokenRequest.auth)
     }
-    
     
 }

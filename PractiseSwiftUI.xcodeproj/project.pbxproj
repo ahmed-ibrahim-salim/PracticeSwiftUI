@@ -73,6 +73,8 @@
 		EF6FF9992917AE240038C291 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6FF9662917AE240038C291 /* ContentView.swift */; };
 		EF6FF99B2917AEB40038C291 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF6FF99A2917AEB40038C291 /* Assets.xcassets */; };
 		EF6FF99D2917AEE20038C291 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF6FF99C2917AEE20038C291 /* Assets.xcassets */; };
+		EF6FF9A02917B6BF0038C291 /* AccessApiToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6FF99F2917B6BF0038C291 /* AccessApiToken.swift */; };
+		EF6FF9A22917BDF10038C291 /* AppUserDefaultsKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6FF9A12917BDF10038C291 /* AppUserDefaultsKeys.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -168,6 +170,8 @@
 		EF6FF9662917AE240038C291 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EF6FF99A2917AEB40038C291 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EF6FF99C2917AEE20038C291 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF6FF99F2917B6BF0038C291 /* AccessApiToken.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessApiToken.swift; sourceTree = "<group>"; };
+		EF6FF9A12917BDF10038C291 /* AppUserDefaultsKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppUserDefaultsKeys.swift; sourceTree = "<group>"; };
 		F82233DAD032D5AE7A5BA9F0 /* Pods_PractiseSwiftUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PractiseSwiftUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -299,6 +303,8 @@
 		EF6854EF2907CB56004E0FBF /* PractiseSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				EF6FF95B2917AE240038C291 /* LaunchScreen.storyboard */,
+				EF6FF94A2917AE240038C291 /* LaunchScreen.strings */,
 				EF6854F02907CB56004E0FBF /* AppMain.swift */,
 				EF48FC3A290FC9510077E0A2 /* AnimalsMock.json */,
 				EF48FC07290FC87A0077E0A2 /* olderProject */,
@@ -332,11 +338,8 @@
 			children = (
 				EF6FF99A2917AEB40038C291 /* Assets.xcassets */,
 				EF6FF9182917AE230038C291 /* Core */,
-				EF6FF94A2917AE240038C291 /* LaunchScreen.strings */,
 				EF6FF94D2917AE240038C291 /* AnimalDetails */,
 				EF6FF9562917AE240038C291 /* AnimalsNearYou */,
-				EF6FF95A2917AE240038C291 /* Preview Content */,
-				EF6FF95B2917AE240038C291 /* LaunchScreen.storyboard */,
 				EF6FF95D2917AE240038C291 /* Search */,
 				EF6FF9662917AE240038C291 /* ContentView.swift */,
 			);
@@ -358,6 +361,7 @@
 			children = (
 				EF6FF91A2917AE230038C291 /* AddressFetcher.swift */,
 				EF6FF91B2917AE230038C291 /* LocationManager.swift */,
+				EF6FF9A12917BDF10038C291 /* AppUserDefaultsKeys.swift */,
 			);
 			path = utils;
 			sourceTree = "<group>";
@@ -383,6 +387,7 @@
 		EF6FF9212917AE230038C291 /* api */ = {
 			isa = PBXGroup;
 			children = (
+				EF6FF99E2917B6A60038C291 /* token */,
 				EF6FF9222917AE230038C291 /* APIConstants.swift */,
 				EF6FF9232917AE230038C291 /* network */,
 				EF6FF9262917AE240038C291 /* parser */,
@@ -549,13 +554,6 @@
 			path = views;
 			sourceTree = "<group>";
 		};
-		EF6FF95A2917AE240038C291 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "Preview Content";
-			sourceTree = "<group>";
-		};
 		EF6FF95D2917AE240038C291 /* Search */ = {
 			isa = PBXGroup;
 			children = (
@@ -583,6 +581,14 @@
 				EF6FF9652917AE240038C291 /* SuggestionsGrid.swift */,
 			);
 			path = views;
+			sourceTree = "<group>";
+		};
+		EF6FF99E2917B6A60038C291 /* token */ = {
+			isa = PBXGroup;
+			children = (
+				EF6FF99F2917B6BF0038C291 /* AccessApiToken.swift */,
+			);
+			path = token;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -804,6 +810,7 @@
 				EF6FF9942917AE240038C291 /* AnimalSearchAge.swift in Sources */,
 				EF6FF98C2917AE240038C291 /* AnimalDetailsView.swift in Sources */,
 				EF6FF9702917AE240038C291 /* APIToken.swift in Sources */,
+				EF6FF9A02917B6BF0038C291 /* AccessApiToken.swift in Sources */,
 				EF6FF9932917AE240038C291 /* AnimalSearchType.swift in Sources */,
 				EF6FF96C2917AE240038C291 /* RequestManager.swift in Sources */,
 				EF6FF9992917AE240038C291 /* ContentView.swift in Sources */,
@@ -815,6 +822,7 @@
 				EF6FF97C2917AE240038C291 /* AdoptionStatus.swift in Sources */,
 				EF6FF96A2917AE240038C291 /* PetSave.xcdatamodeld in Sources */,
 				EF6FF9972917AE240038C291 /* EmptyResultsView.swift in Sources */,
+				EF6FF9A22917BDF10038C291 /* AppUserDefaultsKeys.swift in Sources */,
 				EF6FF96F2917AE240038C291 /* RequestProtocol.swift in Sources */,
 				EF6FF9782917AE240038C291 /* APIColors.swift in Sources */,
 				EF6FF98B2917AE240038C291 /* AnimalHeaderView.swift in Sources */,

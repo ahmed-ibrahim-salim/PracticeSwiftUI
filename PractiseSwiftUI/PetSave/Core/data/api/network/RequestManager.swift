@@ -14,20 +14,24 @@ protocol RequestManagerProtocol{
 }
 
 class RequestManager: RequestManagerProtocol{
+    // dependency inversion
     
     let apiManager: APIManagerProtocol
     let parser: DataParserProtocol
+    let accessTokenManager: AccessTokenManagerProtocol
     
     init(apiManager: APIManagerProtocol = APIManager(),
-         parser: DataParserProtocol = DataParser()) {
+         parser: DataParserProtocol = DataParser(),
+         accessTokenManager: AccessTokenManagerProtocol = AccessTokenManager()) {
         
         self.apiManager = apiManager
         self.parser = parser
+        self.accessTokenManager = accessTokenManager
     }
     
     func perform<T : Decodable>(_ request: RequestProtocol) async throws -> T  {
         
-        // every call it gets token first, then performs the request
+        // with every call, it gets token first, then performs the request
         
         let authToken = try await requestAccessToken()
         
@@ -38,7 +42,6 @@ class RequestManager: RequestManagerProtocol{
         return decoded
     }
     
-    // gets requested each time
     func requestAccessToken() async throws -> String{
         
         let data = try await apiManager.requestToken()
