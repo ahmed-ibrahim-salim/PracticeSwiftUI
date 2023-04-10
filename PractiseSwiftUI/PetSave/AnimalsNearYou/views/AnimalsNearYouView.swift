@@ -45,10 +45,14 @@ struct AnimalsNearYouView: View {
                 latitude: nil,
                 longitude: nil))
             
+            print(animalsContainer)
+
             self.animals = animalsContainer.animals
-            
+            print(animals)
             await stopLoading()
-        }catch{}
+        }catch let error{
+            print(error)
+        }
     }
     
     @MainActor

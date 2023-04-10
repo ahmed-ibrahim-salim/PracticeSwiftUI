@@ -26,6 +26,7 @@ class APIManager: APIManagerProtocol{
         
         let (data, response) = try await urlSession.data(for: request.createURlRequest(authToken: authToken))
         
+        print(response)
         guard let httpResponse = response as? HTTPURLResponse,
                 httpResponse.statusCode == 200 else {
             throw NetworkError.invalidServerResponse
