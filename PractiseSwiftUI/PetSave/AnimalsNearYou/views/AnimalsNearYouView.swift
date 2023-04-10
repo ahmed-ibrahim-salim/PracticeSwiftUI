@@ -11,7 +11,7 @@ struct AnimalsNearYouView: View {
     @State private var animals = [Animal]()
     private let requestManager = RequestManager()
     
-    @State private var isLoading = false
+    @State private var isLoading = true
     
     var body: some View {
         
@@ -22,12 +22,13 @@ struct AnimalsNearYouView: View {
                     AnimalRow(animal: animal)
                 }
             }
+            .navigationTitle("Animals near you")
+
             
         }.task{
             await fetchAnimals()
         }
-//        .listStyle(.plain)
-        .navigationTitle("Animals near you")
+        .listStyle(.plain)
         .overlay{
             if isLoading{
                 ProgressView("Finding Animals near you...")
