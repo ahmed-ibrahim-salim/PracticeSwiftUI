@@ -11,7 +11,7 @@ struct AnimalsNearYouView: View {
     @State private var animals = [Animal]()
     private let requestManager = RequestManager()
     
-    @State private var isLoading = true
+    @State private var isLoading = false
     
     var body: some View {
         
@@ -26,7 +26,7 @@ struct AnimalsNearYouView: View {
         }.task{
             await fetchAnimals()
         }
-        .listStyle(.plain)
+//        .listStyle(.plain)
         .navigationTitle("Animals near you")
         .overlay{
             if isLoading{

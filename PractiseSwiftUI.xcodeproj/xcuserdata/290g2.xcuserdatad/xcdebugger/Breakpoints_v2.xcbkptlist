@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "122B91C4-2E7A-46A3-982A-BD75D607B8F8"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4C4375D1-080B-4D83-9267-2DA08C59CED8"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PractiseSwiftUI/PetSave/AnimalsNearYou/views/AnimalsNearYouView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "51"
+            endingLineNumber = "51"
+            landmarkName = "fetchAnimals()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "4C4375D1-080B-4D83-9267-2DA08C59CED8 - c420976ec09069fa"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for PractiseSwiftUI.AnimalsNearYouView.fetchAnimals() async -&gt; ()"
+                  moduleName = "PractiseSwiftUI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/290g2/Documents/PracticeSwiftUI/PractiseSwiftUI/PetSave/AnimalsNearYou/views/AnimalsNearYouView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "51"
+                  endingLineNumber = "51"
+                  offsetFromSymbolStart = "84">
+               </Location>
+               <Location
+                  uuid = "4C4375D1-080B-4D83-9267-2DA08C59CED8 - ad61620a5179e6ab"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for PractiseSwiftUI.AnimalsNearYouView.fetchAnimals() async -&gt; ()"
+                  moduleName = "PractiseSwiftUI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/290g2/Documents/PracticeSwiftUI/PractiseSwiftUI/PetSave/AnimalsNearYou/views/AnimalsNearYouView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "51"
+                  endingLineNumber = "51"
+                  offsetFromSymbolStart = "45">
+               </Location>
+               <Location
+                  uuid = "4C4375D1-080B-4D83-9267-2DA08C59CED8 - f7c816f961922db8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for PractiseSwiftUI.AnimalsNearYouView.fetchAnimals() async -&gt; ()"
+                  moduleName = "PractiseSwiftUI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/290g2/Documents/PracticeSwiftUI/PractiseSwiftUI/PetSave/AnimalsNearYou/views/AnimalsNearYouView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "51"
+                  endingLineNumber = "51"
+                  offsetFromSymbolStart = "123">
+               </Location>
+               <Location
+                  uuid = "4C4375D1-080B-4D83-9267-2DA08C59CED8 - 39abd603531c901d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(6) suspend resume partial function for PractiseSwiftUI.AnimalsNearYouView.fetchAnimals() async -&gt; ()"
+                  moduleName = "PractiseSwiftUI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/290g2/Documents/PracticeSwiftUI/PractiseSwiftUI/PetSave/AnimalsNearYou/views/AnimalsNearYouView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "51"
+                  endingLineNumber = "51"
+                  offsetFromSymbolStart = "82">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AC4BA13F-C871-4037-8DA7-56EFF46CCD23"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PractiseSwiftUI/PetSave/AnimalsNearYou/views/AnimalRow.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

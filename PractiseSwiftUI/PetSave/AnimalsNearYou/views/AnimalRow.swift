@@ -41,19 +41,19 @@ struct AnimalRow: View {
     }
 }
 
-struct AnimalRow_Previews: PreviewProvider {
-    
-    static var previews: some View {
-        
-        // Starting a view with its properties when it must be initialised, typiclly the view data
-        
-        AnimalRow(animal: Animal(organizationId: nil, url: nil,
-                                 type: "", species: nil, breeds: Breed(),
-                                 colors: APIColors(), age: .adult,
-                                 gender: .female, size: .large,
-                                 coat: nil, name: "my pet", description: nil,
-                                 photos: [], videos: [], status: .adoptable,
-                                 attributes: AnimalAttributes(), tags: [],
-                                 contact: Contact(), publishedAt: nil, distance: nil))
-    }
-}
+//struct AnimalRow_Previews: PreviewProvider {
+//    
+//    static var previews: some View {
+//        
+//        // Starting a view with its properties when it must be initialised, typiclly the view data
+//        
+//        AnimalRow(animal: Animal(organizationId: nil, url: nil,
+//                                 type: "", species: nil, breeds: Breed(),
+//                                 colors: APIColors(), age: .adult,
+//                                 gender: .female, size: .large,
+//                                 coat: nil, name: "my pet", description: nil,
+//                                 photos: [], videos: [], status: .adoptable,
+//                                 attributes: AnimalAttributes(), tags: [],
+//                                 contact: Contact(), publishedAt: nil, distance: nil))
+//    }
+//}
