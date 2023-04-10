@@ -11,7 +11,7 @@ struct AnimalsNearYouView: View {
     @State private var animals = [Animal]()
     private let requestManager = RequestManager()
     
-    @State private var isLoading = false
+    @State private var isLoading = true
     
     var body: some View {
         
@@ -35,8 +35,17 @@ struct AnimalsNearYouView: View {
         }.navigationViewStyle(StackNavigationViewStyle())
         
     }
-    
-    // MARK: Network request
+}
+
+// Info: these for Canvas viewer and does not affect at runtime on simulator
+struct AnimalsNearYouView_Previews: PreviewProvider {
+    static var previews: some View {
+        AnimalsNearYouView()
+    }
+}
+
+// MARK: Network request and loading
+extension AnimalsNearYouView{
     func fetchAnimals() async {
         do{
             let animalsContainer: AnimalsContainer =  try await requestManager.perform(AnimalsRequest.getAnimalsWith(
@@ -59,11 +68,3 @@ struct AnimalsNearYouView: View {
       isLoading = false
     }
 }
-
-// Info: these for Canvas viewer and does not affect at runtime on simulator
-struct AnimalsNearYouView_Previews: PreviewProvider {
-    static var previews: some View {
-        AnimalsNearYouView()
-    }
-}
-
