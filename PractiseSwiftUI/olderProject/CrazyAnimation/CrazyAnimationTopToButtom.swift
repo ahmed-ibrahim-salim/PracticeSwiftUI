@@ -1,10 +1,10 @@
+//////
+//////  CrazyAnimationTopToButtom.swift
+//////  PractiseSwiftUI
+//////
+//////  Created by magdy khalifa on 26/10/2022.
+//////
 ////
-////  CrazyAnimationTopToButtom.swift
-////  PractiseSwiftUI
-////
-////  Created by magdy khalifa on 26/10/2022.
-////
-//
 //import SwiftUI
 //
 //struct ContentView: View {
