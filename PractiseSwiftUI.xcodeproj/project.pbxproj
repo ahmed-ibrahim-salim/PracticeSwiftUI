@@ -296,12 +296,12 @@
 		EF6FF9172917AE230038C291 /* PetSave */ = {
 			isa = PBXGroup;
 			children = (
+				EF6FF9662917AE240038C291 /* ContentView.swift */,
 				EF6FF99A2917AEB40038C291 /* Assets.xcassets */,
 				EF6FF9182917AE230038C291 /* Core */,
 				EF6FF94D2917AE240038C291 /* AnimalDetails */,
 				EF6FF9562917AE240038C291 /* AnimalsNearYou */,
 				EF6FF95D2917AE240038C291 /* Search */,
-				EF6FF9662917AE240038C291 /* ContentView.swift */,
 			);
 			path = PetSave;
 			sourceTree = "<group>";
