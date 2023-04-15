@@ -83,6 +83,7 @@
 		EF89D0B529E4B56900861C49 /* Contact+CoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF89D0A729E4B56900861C49 /* Contact+CoreData.swift */; };
 		EF89D0B629E4B56900861C49 /* APIColors+CoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF89D0A829E4B56900861C49 /* APIColors+CoreData.swift */; };
 		EF89D0B729E4B56900861C49 /* PetSave.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EF89D0A929E4B56900861C49 /* PetSave.xcdatamodeld */; };
+		EFC7F7BA29EA97B500591604 /* CoreDataPersistable.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC7F7B929EA97B500591604 /* CoreDataPersistable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -183,6 +184,7 @@
 		EF89D0A729E4B56900861C49 /* Contact+CoreData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Contact+CoreData.swift"; sourceTree = "<group>"; };
 		EF89D0A829E4B56900861C49 /* APIColors+CoreData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "APIColors+CoreData.swift"; sourceTree = "<group>"; };
 		EF89D0AA29E4B56900861C49 /* PetSave.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PetSave.xcdatamodel; sourceTree = "<group>"; };
+		EFC7F7B929EA97B500591604 /* CoreDataPersistable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataPersistable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -589,6 +591,7 @@
 				EF89D0A629E4B56900861C49 /* Animal+CoreData.swift */,
 				EF89D0A729E4B56900861C49 /* Contact+CoreData.swift */,
 				EF89D0A829E4B56900861C49 /* APIColors+CoreData.swift */,
+				EFC7F7B929EA97B500591604 /* CoreDataPersistable.swift */,
 			);
 			path = extensions;
 			sourceTree = "<group>";
@@ -757,6 +760,7 @@
 				EF6FF9972917AE240038C291 /* EmptyResultsView.swift in Sources */,
 				EF6FF9A22917BDF10038C291 /* AppUserDefaultsKeys.swift in Sources */,
 				EF6FF96F2917AE240038C291 /* RequestProtocol.swift in Sources */,
+				EFC7F7BA29EA97B500591604 /* CoreDataPersistable.swift in Sources */,
 				EF6FF9782917AE240038C291 /* APIColors.swift in Sources */,
 				EF6FF98B2917AE240038C291 /* AnimalHeaderView.swift in Sources */,
 				EF6FF97D2917AE240038C291 /* VideoLink.swift in Sources */,
