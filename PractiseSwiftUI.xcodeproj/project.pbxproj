@@ -84,6 +84,7 @@
 		EF89D0B629E4B56900861C49 /* APIColors+CoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF89D0A829E4B56900861C49 /* APIColors+CoreData.swift */; };
 		EF89D0B729E4B56900861C49 /* PetSave.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EF89D0A929E4B56900861C49 /* PetSave.xcdatamodeld */; };
 		EFD0F9CC29EFD67E0098D5E8 /* CoreDataPersistable.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD0F9CB29EFD67E0098D5E8 /* CoreDataPersistable.swift */; };
+		EFD0F9CE29F00F000098D5E8 /* Breed+CoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD0F9CD29F00F000098D5E8 /* Breed+CoreData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -185,6 +186,7 @@
 		EF89D0A829E4B56900861C49 /* APIColors+CoreData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "APIColors+CoreData.swift"; sourceTree = "<group>"; };
 		EF89D0AA29E4B56900861C49 /* PetSave.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PetSave.xcdatamodel; sourceTree = "<group>"; };
 		EFD0F9CB29EFD67E0098D5E8 /* CoreDataPersistable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataPersistable.swift; sourceTree = "<group>"; };
+		EFD0F9CD29F00F000098D5E8 /* Breed+CoreData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Breed+CoreData.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -592,6 +594,7 @@
 				EF89D0A729E4B56900861C49 /* Contact+CoreData.swift */,
 				EF89D0A829E4B56900861C49 /* APIColors+CoreData.swift */,
 				EFD0F9CB29EFD67E0098D5E8 /* CoreDataPersistable.swift */,
+				EFD0F9CD29F00F000098D5E8 /* Breed+CoreData.swift */,
 			);
 			path = extensions;
 			sourceTree = "<group>";
@@ -764,6 +767,7 @@
 				EF6FF9782917AE240038C291 /* APIColors.swift in Sources */,
 				EF6FF98B2917AE240038C291 /* AnimalHeaderView.swift in Sources */,
 				EF6FF97D2917AE240038C291 /* VideoLink.swift in Sources */,
+				EFD0F9CE29F00F000098D5E8 /* Breed+CoreData.swift in Sources */,
 				EF6FF9832917AE240038C291 /* Coat.swift in Sources */,
 				EF68551B290807D3004E0FBF /* CardView.swift in Sources */,
 				EF6FF9712917AE240038C291 /* AuthTokenRequest.swift in Sources */,
@@ -978,7 +982,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"PractiseSwiftUI/Preview Content\"";
-				DEVELOPMENT_TEAM = AJ7MW2XDAX;
+				DEVELOPMENT_TEAM = 5M56RJ5C85;
 				ENABLE_HARDENED_RUNTIME = NO;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -1015,7 +1019,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"PractiseSwiftUI/Preview Content\"";
-				DEVELOPMENT_TEAM = AJ7MW2XDAX;
+				DEVELOPMENT_TEAM = 5M56RJ5C85;
 				ENABLE_HARDENED_RUNTIME = NO;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;

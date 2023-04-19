@@ -8,10 +8,10 @@ import SwiftUI
 
 struct AnimalsNearYouView: View {
     
-    @State private var animals = [Animal]()
+    @State var animals = [AnimalEntity]()
     private let requestManager = RequestManager()
     
-    @State private var isLoading = true
+    @State var isLoading = true
     
     var body: some View {
         
@@ -41,7 +41,9 @@ struct AnimalsNearYouView: View {
 // Info: these for Canvas viewer and does not affect at runtime on simulator
 struct AnimalsNearYouView_Previews: PreviewProvider {
     static var previews: some View {
-        AnimalsNearYouView()
+        if let animals = CoreDataHelper.getTestAnimalEntities(){
+            AnimalsNearYouView(animals: animals, isLoading: false)
+        }
     }
 }
 
@@ -49,13 +51,17 @@ struct AnimalsNearYouView_Previews: PreviewProvider {
 extension AnimalsNearYouView{
     func fetchAnimals() async {
         do{
-            let animalsContainer: AnimalsContainer =  try await requestManager.perform(AnimalsRequest.getAnimalsWith(
+            let animalsContainer: AnimalsContainer =  try await requestManager.perform(
+                AnimalsRequest.getAnimalsWith(
                 page: 1,
                 latitude: nil,
                 longitude: nil))
             
 
-            self.animals = animalsContainer.animals
+//            self.animals = animalsContainer.animals
+            for var animal in animalsContainer.animals{
+                animal.toManagedObject()
+            }
             
             await stopLoading()
         }catch{

@@ -9,7 +9,7 @@ import SwiftUI
 
 struct AnimalRow: View {
     // Have be initialised with the view down in previews
-    var animal: Animal
+    var animal: AnimalEntity
     
     var body: some View {
         HStack {
@@ -32,7 +32,7 @@ struct AnimalRow: View {
             .cornerRadius(8)
             
             VStack(alignment: .leading) {
-                Text(animal.name)
+                Text(animal.name ?? "No Name Available")
                     .multilineTextAlignment(.center)
                     .font(.title3)
             }
@@ -41,10 +41,14 @@ struct AnimalRow: View {
     }
 }
 
-//struct AnimalRow_Previews: PreviewProvider {
-//    
-//    static var previews: some View {
-//        
+struct AnimalRow_Previews: PreviewProvider {
+    
+    static var previews: some View {
+
+        if let animal = CoreDataHelper.getTestAnimalEntity(){
+            AnimalRow(animal: animal)
+        }
+        
 //        // Starting a view with its properties when it must be initialised, typiclly the view data
 //        
 //        AnimalRow(animal: Animal(organizationId: nil, url: nil,
@@ -55,5 +59,5 @@ struct AnimalRow: View {
 //                                 photos: [], videos: [], status: .adoptable,
 //                                 attributes: AnimalAttributes(), tags: [],
 //                                 contact: Contact(), publishedAt: nil, distance: nil))
-//    }
-//}
+    }
+}
